@@ -2,16 +2,23 @@
  * Парс числа з Number.parseInt() та Number.parseFloat()
  */
 
-let elementWidth = '50px';
+const elementWidth = '50px';
 
+const parsedElementWidth = Number.parseInt(elementWidth);
+// console.log(parsedElementWidth);
 
-let elementHeight = '200.74px';
+const elementHeight = '200.74px';
+const result = Number.parseFloat(elementHeight);
+// console.log(result);
 
 /*
  * - Метод число.toFixed(digits)
  * - Матрьошки на пркладі console.log(Number(число.toFixed(digits)))
  */
-let salary = 1300.16472;
+const salary = 1300.16472;
+// console.log(salary);
+ 
+// console.log(Number(salary.toFixed(1)));
 
 
 /*
@@ -21,16 +28,19 @@ let salary = 1300.16472;
 let quantity = '30';
 let value = 'Цей рядок неможливо перетворити в число';
 
-
+// console.log(Number.isNaN(value));
 /*
  * Об'ект Math
  * - Возведення в степінь
  * - Exponent operator **
  */
 
-// const base = 2;
-// const power = 5;
+const base = 2;
+const power = 5;
 
+
+const minNumber = Math.pow(base, power);
+// console.log(base ** power);
 
 /*
  * Напиши скрипт який просить у користувача ввести число і степінь,
@@ -38,6 +48,10 @@ let value = 'Цей рядок неможливо перетворити в чи
  */
 
 // Алгоритм рішення:
+// 1. Попросити користувача число - prompt() і записати значення в зміну base
+// 2. Попросити користувача число - prompt() і записати значення в зміну power
+// 3. Створити зміну і записати в неї результат підведення в степінь
+// 4. Вивести результат в консоль
 
 
 
@@ -47,17 +61,18 @@ let value = 'Цей рядок неможливо перетворити в чи
  * - Math.random()
  * - Math.round()
  */
-// Math.random() * (max - min) + min
+const randomNumber = Math.round(Math.random() * (50 - 15) + 15)
+console.log(randomNumber);
 
 
-// const colors = ['tomato', 'teal', 'orange', 'deeppink', 'skyblue'];
-// const max = colors.length - 1;
-// const min = 0;
+const colors = ['tomato', 'teal', 'orange', 'deeppink', 'skyblue'];
+const max = colors.length - 1;
+const min = 0;
 
-// const index = Math.round(Math.random() * (max - min) + min);
+const index = Math.round(Math.random() * (max - min) + min);
 
-// const color = colors[index];
+const color = colors[index];
 
-// console.log(color);
+console.log(color);
 
-// document.body.style.backgroundColor = color;
+document.body.style.backgroundColor = color;
