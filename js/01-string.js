@@ -13,17 +13,17 @@
  * Довжина рядка, влістивість length
  */
 const message = 'В цьому рядку 26 символів.';
-
+// console.log(message.length);
+// console.log(message.indexOf('рп'));//-1
 
 /*
  * Конкатенація рядків
  */
 
-// const firstName = ;
-// const lastName = ;
-// const fullname = ;
-
-
+const firstName = 'Ira';
+const lastName = 'Sokolova';
+const fullname = `Hello, ${firstName} ${lastName}!`;
+// console.log(fullname);
 
 
 /*
@@ -31,40 +31,37 @@ const message = 'В цьому рядку 26 символів.';
  * «Гість x y поселяється в g номер q»,
  * підставив замість x y g q значення змінних
  */
-const firstName = 'Mango';
-const lastName = 'Lee';
-const room = 716;
-const type = 'VIP';
-const customersMsg = 'Гість a b заселяється в v номер h';
-
-
-
-/*
- * Шаблонні рядки (template strings)
- * Повертаємось до складання рядка поселення в готель
- */
-
-const quantity = 5;
-const orderMsg = 'Ви замовляєте s тістечок.';
-
-
-
-/*
- * Нормалізація з методом toLocaleLowerCase()
- */
+// const firstName = 'Mango';
+// const lastName = 'Lee';
+// const room = 716;
+// const type = 'VIP';
+// const customersMsg = 'Гість a b заселяється в v номер h';
 
 
 
 
-/*
- * Пошук в рядку з методом includes()
- */
+// toLowerCase() і toUpperCase() — повернуть новий рядок у відповідному регістрі, не змінюють оригінальний рядок
 
+const str = 'Рядок ноPмалізації букв';
+// console.log(str.toLocaleLowerCase());
+// console.log(str.toLocaleUpperCase());
 
-const blacklistedWord1 = 'спам';
-const blacklistedWord2 = 'розпродаж';
+// includes() — один з найбільш часто використовуваних методів, в більшості випадків замінює indexOf, перевіряє чи входить підрядок в рядок, повертає true або false
 
-const string1 = 'Привіт, я Марк Цукерберг, це не спам, пропоную тобі мільйон!';
-const string2 = 'Найбільший РОЗПРОДАЖ цього тижня, не пропустіть!';
-const string3 = 'Рекламна кампанія #jsIsAwesome';
+// console.log(str.includes(' '));//true або false
 
+// str.startsWith() та str.endsWith() перевіряють, чи починається і чи закінчується рядок певним підрядком.
+
+// console.log(str.startsWith('Р'));
+// console.log(str.endsWith('р'));
+
+// trim() — видаляє (“обрізає”) пробіли з початку та кінця рядка.
+const userName = 'Mango'
+// console.log(name.trim().length);
+
+// padStart() і padEnd()доповнює поточний рядок іншим рядком (кілька разів, якщо потрібно), доки отриманий рядок не досягне заданої довжини. 
+// Відступ застосовується з кінця/початку поточного рядка.
+// console.log(userName.length);
+const greet = userName.padEnd(8, '!')
+
+// console.log(greet);
