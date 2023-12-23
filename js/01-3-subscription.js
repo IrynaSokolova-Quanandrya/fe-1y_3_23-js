@@ -4,11 +4,11 @@
  * - Отримати доступ можуть тільки pro и vip
  */
 
-const sub = 'pro';
+const sub = 'vip';
 
 // якщо користувач pro або користувач vip тоді є доступ
+//                          false            true
+const canAccessContent = sub === 'pro' || sub === 'vip';
 
-// const canAccessContent = ;
 
-
-// console.log('Є доступ до контенту? ', canAccessContent);
+console.log('Є доступ до контенту? ', canAccessContent);
