@@ -45,6 +45,12 @@ myArray[10] = 100;
  */
 
 const names = ['Ola', 'Petra', 'Nastia', 'Mary'];
+console.log(names[2]);
+
+names[2] = 'Anastasia';
+
+console.log(names[2]);
+const matrix=[[5, 2, 60],[0, 10, 20],[15, 15, 15]]
 
 // for(let i = 0; i <= names.length - 1; i += 1){
 //        names[i] += '!'          
@@ -53,7 +59,7 @@ const names = ['Ola', 'Petra', 'Nastia', 'Mary'];
 
 for (let name of names) {
         // name += '!' 
-        console.log(name);
+        // console.log(name);
 }
 console.log(names);
 // Методи split() і join()
