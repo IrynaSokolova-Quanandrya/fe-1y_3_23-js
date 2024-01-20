@@ -19,13 +19,13 @@ for (let number of cart) {
  * Нипиши скрипт який порахує суму всіх парних чисел в масиві.
  */
 
-const numbers = [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 14];
+// const numbers = [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 14];
 
-let total = 0;
+// let total = 0;
 
-for(let number of numbers){
+// for(let number of numbers){
 
-}
+// }
 
 // console.log(numbers.length);
 
@@ -53,15 +53,25 @@ for(let login of logins){
     } 
 }
 
-console.log(message);
+// console.log(message);
 
 /*
  * Напиши скрипт пошуку самого маленького числа в масиві,
  * при умові, що числа унікальні (не повторюються).
  */
 
-// const numbers = [51, 18, 13, 24, 7, 85, 19];
-let smallestNumber ;
+const numbers = [51, 18, 13, 24, 7, 85, 19];
+let smallestNumber = numbers[0]
+
+for (let i = 0; i < numbers.length; i+=1) {
+    if(numbers[i] < smallestNumber ){
+        smallestNumber = numbers[i]
+    }
+}
+
+console.log(smallestNumber);
+
+
 
 
 // console.log(smallestNumber);

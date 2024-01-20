@@ -44,12 +44,12 @@ myArray[10] = 100;
  * - for...of - якщо індекс не потрібен і в масиві нічого змінювати не потрібно
  */
 
-const names = ['Ola', 'Petra', 'Nastia', 'Mary'];
-console.log(names[2]);
+// const names = ['Ola', 'Petra', 'Nastia', 'Mary'];
+// console.log(names[2]);
 
-names[2] = 'Anastasia';
+// names[2] = 'Anastasia';
 
-console.log(names[2]);
+// console.log(names[2]);
 const matrix=[[5, 2, 60],[0, 10, 20],[15, 15, 15]]
 
 // for(let i = 0; i <= names.length - 1; i += 1){
@@ -57,19 +57,67 @@ const matrix=[[5, 2, 60],[0, 10, 20],[15, 15, 15]]
 // }
 // console.log(names);
 
-for (let name of names) {
-        // name += '!' 
-        // console.log(name);
-}
-console.log(names);
+// for (let name of names) {
+//         // name += '!' 
+//         // console.log(name);
+// }
+// console.log(names);
+
+
+
 // Методи split() і join()
+const str = 'Hello!';
+const arrStr = str.split('')
+// console.log(arrStr);
+
+// const names = ['Ola', 'Petra', 'Nastia', 'Mary'];
+
+
+// const reversArr = names.join(', ')
+// console.log(reversArr);
 
 // Методи indexOf() і includes()
 
 // Методи push(), pop(), shift(), unshift()
 
+// names.push('Lera')
+// console.log(names);
+// names.pop()
+// console.log(names);
+
+
+// names.shift();
+// console.log(names);
+// names.unshift('Marko')
+// console.log(names);
+
 // Метод slice()
+// const names = ['Ola', 'Petra', 'Nastia', 'Mary'];
+
+// const slicedNames = names.slice()
+// console.log(slicedNames);
+
+// Метод concat()
+const arr1 = [5, 2, 6]
+
+// const concatedArrs = names.concat(arr1, matrix)
+// console.log(concatedArrs);
 
 // Метод splice()
 
-// Метод concat()
+// splice(position, num)
+
+const names = ['Ola', 'Petra', 'Nastia', 'Mary'];
+
+//видалення
+// const splicedName = names.splice(1,2)
+// console.log(splicedName);
+
+// додавання
+// console.log(names.splice(4, 0, 'Marina', 'Egor'));
+console.log(names);
+
+//заміна
+// names.splice(2, 1, 'Marina', 'Egor')
+console.log(names);
+
