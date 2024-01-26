@@ -6,11 +6,12 @@
 
 const logins = ['m4ngoDoge', 'k1widab3st', 'poly1scute', 'aj4xth3m4n'];
 
-const loginToFind = 'aj4xth3m4n';
-
-const message = logins.includes(loginToFind) 
-? `Користувач ${loginToFind} знайдено.`
-: `Користувач ${loginToFind} не знайдено.`;
+const findLogin = function(logins, loginToFind){
+   return logins.includes(loginToFind) 
+        ? `Користувач ${loginToFind} знайдено.` 
+        : `Користувач ${loginToFind} не знайдено.`
+        
+}   
 
 
 

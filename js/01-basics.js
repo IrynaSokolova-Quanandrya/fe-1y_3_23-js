@@ -1,29 +1,23 @@
 /*
  * Функції
  * - Функціональний вираз (function expression)
- * - Оголошення функції (function declaration)
  * - Аргументи і параметри
  * - return
  * - Повернення значення
  * - Параметри за замовчуванням
+ * - Оголошення функції (function declaration)
  */
 
 const fnA = function () {
-    console.log('hello');
-    alert(`Hello, Egor`)
-    return 10;
+  
+}
+console.log(fnB());
+
+function fnB() {
+  return 10;
 }
 
-const result1 = fnA('Ira');
-console.log(result1);
 
-const result2 = fnA('Marina');
-console.log(result2);
-
-const result3 = fnA('Egor');
-console.log(result3);
-
-fnA('lkjgj')
 
 
  /*
