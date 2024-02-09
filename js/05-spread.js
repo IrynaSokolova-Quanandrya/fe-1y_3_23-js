@@ -7,7 +7,7 @@
 
 
 
-const numbers = [...numbers1, 15, 20,58, 35, 36, 25, 34, ...numbers2];
+
 
 // console.log(numbers);
 
@@ -20,13 +20,8 @@ const numbers = [...numbers1, 15, 20,58, 35, 36, 25, 34, ...numbers2];
    */
   const temps = [18, 14, 12, 21, 17, 29, 24];
 
-<<<<<<< Updated upstream
   const lowestTemp = Math.min(...temps)
   const hightTemp = Math.max(18, 14, 12, 21, 17, 29, 24)
-=======
-  const lowestTemp = Math.min()
-  const hightTemp = Math.max()
->>>>>>> Stashed changes
   
   // console.log(lowestTemp);
   // console.log(hightTemp);
@@ -101,21 +96,4 @@ const userSettings = {
   }
   
   
-<<<<<<< Updated upstream
   // console.log(finalSettings);
-=======
-  console.log(finalSettings);
-
-//   const obj = {
-//     read(a, b){
-//       this.a = prompt('bj')
-// console.log(a);
-// console.log(b);
-
-//     }
-//   }
-
-//   obj.read(5, 5);
-//   // obj.a = 5
-//   console.log(obj);
->>>>>>> Stashed changes

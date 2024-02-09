@@ -1,7 +1,3 @@
-// const obj1 = {
-
-// };
-
 /*
  * Об"єкти (робимо плейлист музики: ім"я, рейтинг, треки, кількість треків)
  * - Літерал об"єкту
@@ -9,47 +5,43 @@
  * - Як відрізнити об"єкт від області видимості
  */
 
-const class1 = {
-  name: '10-А',  
-  students: ['Vlad', 'Fedir', 'Nastia', 'Matvii'], 
-  studentCount: 4,
+
+
+const playList = {
+  name: 'myPlayList',
+  raiting: 10,
+  tracks: ['track-1', 'track-2', 'track-3']
 }
+// console.log(playList);
 
-// console.log(class1);
+// console.log(playList.name);//!!!!!!!!!!
 
-// class1.raiting = 10;
+playList.count = 3;
+playList.name = 'MyFirstPlayList'
 
-// console.log(class1);
+// console.log(playList.count);
+// console.log(playList);
+// console.log(playList['name']);
 
-// console.log(class1['raiting']);
-
-// class1.students.push('Yelisey');
-
-// console.log(class1);
-
-// delete class1.raiting;
-
-// console.log(class1);
-
-
-// console.log(studentCount);
-
-// console.log({} === {});
-// const a = {};
-// const b = a;
-// console.log(a === b);
+// const playListName = 'name';
+// console.log(playList[playListName]);
 
 
 /*
  * Доступ до властивості
  * - obj.key
  * - obj['key']
- * - Відсутність властивостей
+ * - Відсутність властивостейI
  */
 
+// const name = prompt("Ведіть Ваше ім'я")
   
-
-  
+// const student = {
+//   name
+// }
+const objA = {a: 1}
+const objB = objA
+  console.log(objA===objB);
 
   
   

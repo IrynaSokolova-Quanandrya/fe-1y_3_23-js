@@ -12,22 +12,30 @@ const playlist = {
       name: 'Плейлист',
       rating: 5,
       tracks: ['трек-1', 'трек-2', 'трек-3'],
-
-      getName() {
-        console.log(this.name);
-      },
-
       changeName(newName){
-       return this.name = newName;
+       return this.name = newName
+      },
+      addTrack(track){
+        this.tracks.push(track)
       }
+      
+        
 }
+console.log(playlist);
 
-playlist.getName();
-playlist.changeName('Мій новий плейлист');
+playlist.changeName('Супер плейлист');
+playlist.addTrack('трек-4')
 
 console.log(playlist);
 
+// const logItems = function(array){
+//   console.log('hello');
+//   for(let i = 1; i < array.length; i += 1){
+//           console.log(i);
+//       }
+// }
 
+// logItems(['Mango', 'Poly', 'Ajax'])
 
 
 
