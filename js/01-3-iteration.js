@@ -5,64 +5,32 @@
 const feedback = {
     good: 5,
     neutral: 10,
-    bad: 3,
-  };
-  // Number Array Boolean Object
+  bad: 3,
+};
+  
+const keys = Object.keys(feedback)
+// console.log(keys);
 
-  const allKeys = Object.keys(feedback);
-  console.log(allKeys);
+for (const key of keys) {
+  // console.log(feedback[key]);
+}
 
-// feedback.good
-// feedback['good'];
-// feedback['neutral'];
-// feedback['bad'];
-
-let total = 0;
-  // for (const key of allKeys) {
-  //   // console.log(feedback[key]);
-  //   total += feedback[key]
-  // }
-
-// console.log(total);
-
-// const values = Object.values(feedback);
+const values = Object.values(feedback)
 // console.log(values);
 
-// for (const value of values) {
-//   console.log(value);
-//   total += value;
-// }
+for (const value of values) {
+  // console.log(value);
+}
+console.log(Object.entries(feedback));
 
-// const entries = Object.entries(feedback)
-// console.log(entries);
-
+console.log(feedback);
   // Number Array Boolean Object
 
-  // const keys = Object.keys(feedback);
-  // console.log(keys);
 
-  // let totalFeedback = 0;
+  //ВАРІАНТИ ЗВЕРНЕННЯ ДО ВЛАСТИВОСТЕЙ ОБ'ЄКТА
+        // const good = 'good';
 
-  // for (const key of keys) {
-  //   // console.log(feedback[key]);
+        // feedback.good// 5
+        // feedback['good']//5
+        // feedback[good]//5
 
-  //   totalFeedback += feedback[key]
-  // }
-
-  // console.log('totalFeedback: ', totalFeedback);
-
-// const values = Object.values(feedback);
-//  console.log(values);
-
-//  let totalFeedback = 0;
-
-//   for (const value of values) {
-//     console.log(value);
-
-//     totalFeedback +=  value
-//    }
-//    console.log('totalFeedback: ', totalFeedback);
-
-  //  const arr = Object.entries(feedback);
-
-  //  console.log(arr);
