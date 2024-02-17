@@ -3,17 +3,27 @@
  * - Array.prototype.concat() та аналог через spread
  */
 
-;
+// const numbers = [1, 2, 3].concat([4, 5, 6],[7,8,9])
+// console.log(numbers);
 
-
-
-
+// const numbers = [5000, ...[1, 2, 3], 10000, ...[4, 5, 6], ...[7,8,9]]
 
 // console.log(numbers);
 
-// ...spread
-  // console.log(numbers);
-  // console.log(numbers1);
+// const fnA = function (...rest) {
+//   console.log(rest);
+// }
+
+// fnA(10)
+// fnA(10, 20)
+// fnA(25, 35, 45)
+
+
+
+
+
+
+
   
   /*
    * Пошук найнижчої або найвищої температури (числа)
@@ -21,9 +31,9 @@
   const temps = [18, 14, 12, 21, 17, 29, 24];
 
   const lowestTemp = Math.min(...temps)
-  const hightTemp = Math.max(18, 14, 12, 21, 17, 29, 24)
+
   
-  // console.log(lowestTemp);
+  console.log(lowestTemp);
   // console.log(hightTemp);
   // console.log();
   
@@ -77,7 +87,7 @@ const c = {
   q: 25,
 }
 
-console.log(c);  
+// console.log(c);  
 
   const defaultSettings = {
     theme: 'light',
