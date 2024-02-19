@@ -19,17 +19,8 @@ const cart = {
     items: [],
     getItems() {},
     add(product) {
-      for (const item of this.items) {
-        if (item.name === product.name) {
-          item.quantity += 1;
-          return;
-        }
-      }
-      const newProduct = {
-        ...product,
-        quantity: 1,
-      }
-      this.items.push(newProduct)
+     
+      this.items.push(product)
     },
     remove(productName) {},
     clear() {},
@@ -50,7 +41,7 @@ const cart = {
   console.log(cart.items);
   // console.table(cart.getItems());
   
-  cart.remove('🍎');
+  // cart.remove('🍎');
   // console.table(cart.getItems());
   
   // cart.clear();

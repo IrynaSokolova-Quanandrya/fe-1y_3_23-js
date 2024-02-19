@@ -9,8 +9,14 @@ const playlist = {
     rating: 5,
     tracks: ['трек-1', 'трек-2', 'трек-3'],
     trackCount: 3,
-  };
+};
   
+const {name, rating} = playlist
+  
+console.log(
+  name,
+  rating,  
+  );
   
  
   // /*
@@ -30,20 +36,25 @@ const playlist = {
   };
    
   // // СПОСІБ 1 окремо
+// const { name, tag, location, avatar, stats } = profile
+// console.log(stats);
+
+// const { followers, views, likes } = stats;
+// console.log(followers, views, likes);
 
 
   // // СПОСІБ 2 вкладено
-  
+  // const { name, tag, location, avatar, stats: {followers, views, likes} } = profile
   
   
   // /*
   //  * Деструктуризаці масивів
   //  */
   
-  // const rgb = [255, 100, 80];
+  const rgb = [255, 100, 80];
 
-  // const [red, , blue] = rgb;  
+  const [red, green, blue] = rgb;  
   
-  // console.log(red, blue);
+  console.log(red, blue);
   
  

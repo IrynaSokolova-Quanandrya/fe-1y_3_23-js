@@ -33,7 +33,7 @@
   const lowestTemp = Math.min(...temps)
 
   
-  console.log(lowestTemp);
+  // console.log(lowestTemp);
   // console.log(hightTemp);
   // console.log();
   
@@ -78,14 +78,18 @@
   const a = { x: 1, y: 2 };
   const b = { x: 5, c: 3 };
   
-// const c = Object.assign({}, a, b);
+const c = {  ...b, ...a, x: 10, }
 
-const c = {
-  ...b,
-  s: 15,
-  ...a,
-  q: 25,
-}
+console.log(c);
+// {
+//     x: 10,
+//     y: 2,
+//     c:3,
+//   }
+  
+
+
+
 
 // console.log(c);  
 
