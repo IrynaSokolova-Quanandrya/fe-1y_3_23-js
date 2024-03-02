@@ -23,11 +23,8 @@ let total = 0
 // forEach(numbers, callback)
 
 
-numbers.forEach(function (number, index, array) {
-   total += number
-    console.log('число всередині колбеку: ', number);
+numbers.forEach(function (number) {
     
-    console.log('індекс всередині колбеку: ', index);
 })
 
 console.log('total: ', total);
