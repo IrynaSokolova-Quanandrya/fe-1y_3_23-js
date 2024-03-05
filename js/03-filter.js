@@ -11,8 +11,11 @@
 
 const numbers = [5, 10, 15, 20, 25];
 
+const filteredNumbers = numbers.filter((number) => {
+  return number <= 10
+})
 
-// console.log(filteredNumbers);
+console.log(filteredNumbers);
 
 const players = [
   { id: 'player-1', name: 'Mango', timePlayed: 310, points: 54, online: false },
@@ -21,18 +24,38 @@ const players = [
   { id: 'player-4', name: 'Ajax', timePlayed: 150, points: 71, online: false },
   { id: 'player-5', name: 'Chelsy', timePlayed: 280, points: 48, online: true },
 ];
-
+const player = {
+  id: 'player-5',
+  name: 'Chelsy',
+  timePlayed: 280,
+  points: 48,
+  online: true
+}
+const {id, firsName} = player
+name
+id
 /*
  * Отримуємо масив всіх гравців онлайн
  */
+const getOnlinePlayers = function (players) {
+  return players.filter((player) => {
+    return player.online
+  })
+
+  
+}
 
 
 
-console.log(onlinePlayers);
+console.table(getOnlinePlayers(players));
 
 /*
  * Отримуємо масив всіх гравців офлайн
  */
+
+const offlinePlayers = players.filter((player) => {
+  return !player.online
+})
 
 // console.table(offlinePlayers);
 

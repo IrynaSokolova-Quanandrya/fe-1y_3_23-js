@@ -12,7 +12,7 @@
 const numbers = [5, 10, 15, 20, 25];
 
 const doubledNums = numbers.map((number) => {
-  return number * 2
+  
 })
 // console.log('numbers', numbers);
 // console.log('doubledNums', doubledNums);
