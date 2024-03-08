@@ -7,8 +7,11 @@
 // array.reduce(сallback[(previousValue, currentItem, index, array)], initialValue)
 
 const numbers = [5, 10, 15, 20, 25];
-// let total = 0;
-const total = numbers.reduce((total, number)=>{return total += number}, 0);
+
+const total = numbers.reduce((acc, number) => {
+  acc += number
+  return acc
+}, 0)
 
 // acc = 0
 // acc = acc + number => 0 + 5 = 5
@@ -29,6 +32,8 @@ const salary = {
   poly: 50,
   ajax: 150,
 };
+
+
 
 // console.log(totalSalary);
 
@@ -71,15 +76,11 @@ const tweets = [
   { id: '004', likes: 0, tags: ['js', 'nodejs', 'react'] },
 ];
 
-const allTags = tweets.reduce((tags, tweet)=>{
-  return [...tags, ...tweet.tags]
+const allTags = tweets.reduce((allTags, tweet) => {
+  // console.log(allTags);
+  // allTags.push(...tweet.tags)
+  return [...allTags, ...tweet.tags]
 }, [])
-
-// {
-// js: 1,
-// nodejs: 2,
-// html: 3
-// }
 
 console.log(allTags);
 
@@ -91,14 +92,9 @@ console.log(allTags);
 /*
  * Ведемо статистику тегів
  */
-const tagsStats = allTags.reduce((acc, tag) => {
-  return {
-  ...acc,
-  [tag]: acc[tag] ? acc[tag] += 1 : acc[tag] = 1,
- }
-}, {});
 
-console.log(tagsStats);
+
+// console.log(tagsStats);
 
 // якщо властивість з ключем tag є, збільшуємо його значення на 1
 // якщо властивості немає с таким ключем що в tag, створити і записати 1
