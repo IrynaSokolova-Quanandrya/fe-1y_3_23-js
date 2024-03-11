@@ -8,20 +8,6 @@
 // Як створити прототип для нового об'єкту
 
 
-const objA = {
-    a: 5
-};
-
-
-const objB = Object.create(objA);
-objB.b = 3;
-
-
-const objC = Object.create(objB);
-objC.c = 15;
-// console.log(objC);
-// console.log(objC.hasOwnProperty(a));
-
 
 /**
  * Правило пошуку властивостей в ланцюжку прототипів 
