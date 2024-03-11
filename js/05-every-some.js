@@ -24,11 +24,12 @@ console.log(anyHardcorePlayers);
    * - Повертає true якщо хоча б один елемент масива задовільняє умову
    */
   
-const isAnyOnline = players.some((player) => {
-    return player.online
-  })
+const isAnyOnline = players.some(player => player.online)
 
-  console.log('isAnyOnline: ', isAnyOnline);
+  console.log('isAnyOnline: ', isAnyOnline); //true
   
   
-  // console.log('anyHardcorePlayers: ', anyHardcorePlayers);
+// console.log('anyHardcorePlayers: ', anyHardcorePlayers);
+  
+
+const arow = param1 => {}

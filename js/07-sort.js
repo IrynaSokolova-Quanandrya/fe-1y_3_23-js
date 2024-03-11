@@ -6,20 +6,19 @@
  *    - приводить елементи в рядок і сортує по [Unicode](https://unicode-table.com/en/)
  */
 
-// const numbers = [1, 9, 6, 2, 3];
-// numbers.reverse()
-// numbers.sort()
-// console.log('numbers', numbers);
+const numbers = [1, 9, 6, 2, 3];
+numbers.sort()
+numbers.reverse()
+console.log('numbers', numbers);
 
-const letters = ['b', 'B', 'a', 'A'];
-const copyLetters = [...letters];
-
-console.log(letters === copyLetters);
-
+const letters = ['A', 'a', 'b', 'B']
+letters.sort()
+console.log('letters', letters);
 
 
-// letters.sort()
-// console.log('letters', letters);
+
+
+
 
 /*
  * compareFunction - функція порівняння (callback)
@@ -28,13 +27,13 @@ console.log(letters === copyLetters);
  *  - якщо compareFunction(A, B) більше 0, сортування поставить A перед B
  *  - якщо compareFunction(A, B) поверне 0, сортування залишить A та B не зміненими по відношенню один до одного, але відсортує їх по відношенню до всіх інших елементів.
  */
-const numbers = [1, 9, 6, 20, 3];
-letters.sort((curEl, nextEl) => {
-    // console.log('curEl: ',curEl);
-    // console.log('nextEl: ',nextEl);
-    // console.log(curEl > nextEl);
-   return curEl > nextEl
-});
+// const numbers = [1, 9, 6, 20, 3];
+// letters.sort((curEl, nextEl) => {
+//     // console.log('curEl: ',curEl);
+//     // console.log('nextEl: ',nextEl);
+//     // console.log(curEl > nextEl);
+//    return curEl > nextEl
+// });
 
 // console.log(letters);
 /*
@@ -55,35 +54,60 @@ const players = [
     { id: 'player-2', name: 'Poly', timePlayed: 470, online: true },
     { id: 'player-3', name: 'Aiwi', timePlayed: 230, online: true },
     { id: 'player-4', name: 'Ajax', timePlayed: 150, online: false },
-    { id: 'player-5', name: 'Chelsey', timePlayed: 80, online: true },
+    { id: 'player-5', name: 'Alex', timePlayed: 80, online: true },
 ];
 
 // По часу гри
+const newPlayers = [...players]
+const sortedByBestPlayers = newPlayers.sort((prevPlayer, nextPlayer) => prevPlayer.timePlayed - nextPlayer.timePlayed)
 
-// console.table(sortedByBestPlayers);
+console.table(sortedByBestPlayers);
+
+const sortByName = [...players].sort((prevPlayer, nextPlayer) =>
+prevPlayer.name.localeCompare(nextPlayer.name))
+
+console.log('sortByName: ', sortByName);
+
+const obj = {
+    players: [
+    { id: 'player-1', name: 'Mango', timePlayed: 310, online: false },
+    { id: 'player-2', name: 'Poly', timePlayed: 470, online: true },
+    { id: 'player-3', name: 'Aiwi', timePlayed: 230, online: true },
+    { id: 'player-4', name: 'Ajax', timePlayed: 150, online: false },
+    { id: 'player-5', name: 'Alex', timePlayed: 80, online: true },
+    ],
+    
+    sortPlayers() {
+        [...this.players].sort((prevPlayer, nextPlayer) =>
+        prevPlayer.name.localeCompare(nextPlayer.name))
+    },
+    getOnlinePlayers(players){
+    return players.filter((player) => {
+    return player.online
+  })
+}
 
 
 
 
+// const sortedByWorstPlayers = [...players].sort(
+//     (prevPlayer, nextPlayer) => prevPlayer.timePlayed - nextPlayer.timePlayed,
+// );
+// // console.table(sortedByWorstPlayers);
 
-const sortedByWorstPlayers = [...players].sort(
-    (prevPlayer, nextPlayer) => prevPlayer.timePlayed - nextPlayer.timePlayed,
-);
-// console.table(sortedByWorstPlayers);
+// const byName = [...players].sort((a, b) => {
+//     const result = a.name[0] > b.name[0];
 
-const byName = [...players].sort((a, b) => {
-    const result = a.name[0] > b.name[0];
+//     if (result) {
+//         return 1;
+//     }
 
-    if (result) {
-        return 1;
-    }
+//     if (!result) {
+//         return -1;
+//     }
+// });
 
-    if (!result) {
-        return -1;
-    }
-});
+// // console.table(byName);
 
-// console.table(byName);
-
-const descSortedNumbers = [...numbers].sort((a, b) => b - a);
-const ascSortedNumbers = [...numbers].sort((a, b) => a - b);
+// const descSortedNumbers = [...numbers].sort((a, b) => b - a);
+// const ascSortedNumbers = [...numbers].sort((a, b) => a - b);
