@@ -7,7 +7,36 @@
 // Що таке прототипне наслідування, малюю приклад
 // Як створити прототип для нового об'єкту
 
+// const a = {
+//     name: 'Poly',
+//     changeName(name) {
+//         this.name = name;
+//     }
+// }
 
+
+
+//     a.changeName('Kiwi')
+   
+//     console.log([]);
+// [].push()
+
+
+const a = {
+    a: 5
+}
+
+const b = {
+    b: 10
+}
+ 
+
+const c = Object.create(b)
+
+c.c = 15
+
+console.log(c);
+console.log(c.b);
 
 /**
  * Правило пошуку властивостей в ланцюжку прототипів 
