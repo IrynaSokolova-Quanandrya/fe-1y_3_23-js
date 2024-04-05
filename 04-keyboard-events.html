@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>События клавиатуры</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <style>
+      .output {
+        font-size: 24px;
+      }
+      .gallery {
+  display: flex;
+  overflow-x: auto;
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.full-image-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.full-image {
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+    </style>
+  </head>
+  <body>
+    <p><a href="/">На головну</a></p>
+
+    <button class="js-clear">Очистити</button>
+    <p class="output js-output"></p>4
+
+    <ul class="nav js-nav">
+      <li><a href="#" class="btn">HTML</a></li>
+      <li><a href="#" class="btn">CSS</a></li>
+      <li><a href="#" class="btn">JavaScript</a></li>
+      <li><a href="#" class="btn">NPM</a></li>
+      <li><a href="#" class="btn">Babel</a></li>
+      <li><a href="#" class="btn">Webpack</a></li>
+      <li><a href="#" class="btn">React</a></li>
+      <li><a href="#" class="btn">Redux</a></li>
+      <li><a href="#" class="btn">NodeJS</a></li>
+    </ul>
+     
+    <script src="./js/04-keyboard-events.js" type="module"></script>
+  </body>
+</html>
