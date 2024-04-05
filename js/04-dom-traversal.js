@@ -2,12 +2,21 @@
  * Властивості «навигації» по DOM-вузлам (використати список)
  */
 
-// console.log(document);
-const listEl = document.querySelector('.site-nav');
-// console.log(listEl);
+// window.alert()
+// window.console.log()
+// window.document
 
-const itemsEl = listEl.children;
-console.log(listEl.lastElementChild);
+// console.log(document);
+const firstItemRef = document.querySelector('.site-nav__item');
+const listRef = firstItemRef.parentNode
+const secondItemRef = firstItemRef.nextElementSibling
+
+console.log(firstItemRef.nextElementSibling);
+
+
+
+// const itemsEl = listEl.children;
+// console.log(listEl.lastElementChild);
 
 
 // const itemEl = document.querySelectorAll('.site-nav__item');

@@ -1,24 +1,31 @@
 const magicBtn = document.querySelector('.js-magic-btn');
+
+const {type} = magicBtn
+console.dir(type);
+console.log(magicBtn.getAttribute('type'));
+
+magicBtn.type = 'button';
+magicBtn.setAttribute('type', 'button')
+
+
+magicBtn.hasAttribute('type')// true
+magicBtn.removeAttribute('type')
 /*
 *  Для початку нагадаємо собі, 
 *  як ми працюємо з об'єктами та його властивостями))
 */
 
-// const obj = {
-//     name: 'name',
-//     age: 15,
-//     city: 'kyiv',
-// }
+const user = {
+    name: 'Poly',
+    email: 'poly@mail.com'
+}
 
-// console.log(obj.age);
+user.name//'Poly'
+user.email = 'poly@gmail.com'
+user.isOnline = true
 
-// obj.school = 'Hogwards'
+// console.log(user);
 
-// console.log(obj);
-
-// obj.age = 16;
-
-// console.log(obj);
 /*
  * Властивостями елементів можуть бути атрибути(hero)
  * - Зображення
@@ -27,44 +34,37 @@ const magicBtn = document.querySelector('.js-magic-btn');
  * https://www.pexels.com/ru-ru/photo/14939897/
  * https://images.pexels.com/photos/1870376/pexels-photo-1870376.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=480
  */
+const titleRef = document.querySelector('.hero__title');
+const imgRef = document.querySelector('.hero__image');
 
-const imageEl = document.querySelector('.hero__image')
-// console.log(imageEl);
+imgRef.alt = 'Hello!'
+imgRef.src = 'https://images.pexels.com/photos/1870376/pexels-photo-1870376.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=480'
 
-// imageEl.src = 'https://images.pexels.com/photos/14939897/pexels-photo-14939897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
-// console.log(imageEl.src);
+// console.log(titleRef.textContent);
 
-imageEl.alt = 'ку-ку';
-// console.log(imageEl.alt);
+titleRef.textContent = 'Киця';
 
-const titleEl = document.querySelector('.hero__title');
-titleEl.textContent = '';
-// console.log(titleEl.textContent);
+// console.log(titleRef.textContent);
+/*
+ * Атрибути
+ * - get(ім'я-атрибута)
+ * - set(ім'я-атрибута)
+ * - remove(ім'я-атрибута)
+ * - has(ім'я-атрибута)
+ */
 
-magicBtn.addEventListener('click', ()=>{
-    const inputEl = document.querySelector('.js-input')
-console.log(inputEl.value);
-})
 
-// const inputEl = document.querySelector('.js-input')
-// console.log(inputEl.value);
 
-// /*
-//  * Атрибути
-//  * - get(ім'я-атрибута)
-//  * - set(ім'я-атрибута)
-//  * - remove(ім'я-атрибута)
-//  * - has(ім'я-атрибута)
-//  */
-console.log(imageEl.src);
-console.log(imageEl.getAttribute('src'));
 
-imageEl.src = 'https:images.pexels.com/photos/14939897/pexels-photo-14939897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-imageEl.setAttribute('src', 'https:images.pexels.com/photos/14939897/pexels-photo-14939897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
 
-imageEl.removeAttribute('src');
+console.log(imgRef.getAttribute('src'));
+console.log(imgRef.src);
 
-console.log(imageEl.src);
+imgRef.setAttribute("alt", "cat");
+
+imgRef.removeAttribute('alt')
+
+console.log(imgRef.hasAttribute('alt'));
 
 // /*
 //  * Data-атрибути
