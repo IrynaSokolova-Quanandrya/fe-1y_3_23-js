@@ -19,55 +19,37 @@
 */
 
 
-    const openModalBtn = document.querySelector('[data-action="open-modal"]');
-    const closeModalBtn = document.querySelector('[data-action="close-modal"]');
-    const backdrop = document.querySelector('.js-backdrop');
+  const openModalBtn = document.querySelector('[data-action="open-modal"]');
+  const closeModalBtn = document.querySelector('[data-action="close-modal"]');
+  const backdrop = document.querySelector('.js-backdrop');
     
   
-  openModalBtn.addEventListener('click', onBtnClickOpen);
-  closeModalBtn.addEventListener('click', onBtnClickClose);
+  openModalBtn.addEventListener('click', onOpenModal);
+  closeModalBtn.addEventListener('click', onCloseModal);
   backdrop.addEventListener('click', onBackdropClose);
   
-  
-  function onModalEscClose(evt){
-    console.log(evt);
-      if (evt.code === "Escape"){
-          onBtnClickClose()
-      }
-  };
-
-  function onBtnClickOpen() {
-    document.body.classList.add('show-modal');
-    window.addEventListener("keydown" , onModalEscClose);
-  }
-
-  
-  function onBtnClickClose() {
-    document.body.classList.remove('show-modal');
-    window.removeEventListener("keydown" , onModalEscClose);
-  }
-
-  function onBackdropClose(event) {
-    console.log('currentTarget: ', event.currentTarget);
-    console.log('target: ', event.target);
-    if(event.currentTarget === event.target){
-      onBtnClickClose();
-    }    
-  }
-
-
-
-
-
-  document.addEventListener("keydown", event => {
-    event.preventDefault();
-   
-    if ((event.ctrlKey || event.metaKey) && event.code === "KeyS") {
-      console.log("«Ctrl + s» or «Command + s» combo");
+      function onEscClose(event) {
+            if (event.code === 'Escape') {
+        onCloseModal()
+        }
+        console.log(event.code);
     }
-   });
+
+    function onOpenModal() {
+      document.body.classList.add('show-modal');
+      window.addEventListener('keydown', onEscClose)
+    };
+
+    function onCloseModal() {
+      document.body.classList.remove('show-modal');
+      window.removeEventListener('keydown', onEscClose)
+    }
    
-   
+    function onBackdropClose(event) {
+          if (event.target === event.currentTarget) {
+          onCloseModal()
+        }
+    }
    
   
  
