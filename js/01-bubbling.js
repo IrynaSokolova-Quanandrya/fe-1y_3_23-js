@@ -5,13 +5,13 @@
  */
 
 const refs = {
-  parent: document.querySelector('#parent'),
+  parent:document.querySelector('#parent'),
   child: document.querySelector('#child'),
   innerChild: document.querySelector('#inner-child'),
 };
 
 refs.parent.addEventListener('click', onParentClick);
-refs.child.addEventListener('click', onChildClick);
+// refs.child.addEventListener('click', onChildClick);
 refs.innerChild.addEventListener('click', onInnerChildClick);
 
 function onParentClick(evt) {
@@ -29,7 +29,11 @@ function onChildClick(evt) {
 
 function onInnerChildClick(evt) {
   console.log('onInnerChildClick');
-  evt.stopImmediatePropagation();
+  // evt.stopImmediatePropagation();
   // console.log('onInnerChildClick -> evt.target', evt.target);
   // console.log('onInnerChildClick -> evt.currentTarget', evt.currentTarget);
 }
+
+
+
+

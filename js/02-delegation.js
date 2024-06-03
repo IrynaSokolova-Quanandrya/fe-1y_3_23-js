@@ -4,20 +4,17 @@
  * - фільтр цілі кліку
  */
 
-const container = document.querySelector('.js-container')
+const containerRef = document.querySelector('.js-container')
 
-container.addEventListener('click', onButtonClick)
+containerRef.addEventListener('click', onBtnClick)
 
-function onButtonClick(event) {
-  if(event.target.nodeName !== 'BUTTON'){
-    return;
+function onBtnClick(e) {
+  if (e.target.nodeName !== 'BUTTON') {
+    return
   }
-  console.log(event.target.nodeName);
-  console.log(event.target.textContent);
+  e.target.style.backgroundColor = 'green';
+
 }
-
-
-
 
 
 
@@ -38,16 +35,16 @@ function onButtonClick(event) {
 // /*
 //  * Код додавання кнопок
 //  */
-// const addBtn = document.querySelector('.js-add-btn');
-// let labelCounter = 6;
+const addBtn = document.querySelector('.js-add-btn');
+let labelCounter = 6;
 
-// addBtn.addEventListener('click', onAddBtnClick);
+addBtn.addEventListener('click', onAddBtnClick);
 
-// function onAddBtnClick() {
-//   const btn = document.createElement('button');
-//   btn.textContent = `Кнопка ${labelCounter}`;
-//   btn.type = 'button';
+function onAddBtnClick() {
+  const btn = document.createElement('button');
+  btn.textContent = `Кнопка ${labelCounter}`;
+  btn.type = 'button';
 
-//   container.appendChild(btn);
-//   labelCounter += 1;
-// }
+  containerRef.appendChild(btn);
+  labelCounter += 1;
+}

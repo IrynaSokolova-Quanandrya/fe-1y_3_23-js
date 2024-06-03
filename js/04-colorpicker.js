@@ -15,17 +15,15 @@ const colors = [
 ];
 
 const paletteContainer = document.querySelector('.js-palette');
-const cardsMarkup = createColorCardsMarkup(colors);
 
-paletteContainer.insertAdjacentHTML('beforeend', cardsMarkup);
+paletteContainer.addEventListener('click', onCardColorClick)
 
-paletteContainer.addEventListener('click', onPaletteContainerClick);
-
-function onPaletteContainerClick(event) {
-  console.log(event.target);
-  console.log(event.target.dataset.hex);
-
-  document.body.style.background = event.target.dataset.hex;
+function onCardColorClick(e) {
+  if (!e.target.classList.contains('color-swatch')) {
+    return
+  }
+console.log(e.target.dataset);
+    document.body.style.backgroundColor = e.target.dataset.hex
 }
 
 function createColorCardsMarkup(colors) {
@@ -35,6 +33,7 @@ function createColorCardsMarkup(colors) {
     <div class="color-card">
      <div
      class="color-swatch"
+     id="${hex}"
      data-hex="${hex}"
      data-rgb="${rgb}"
      style="background-color: ${hex}"
@@ -47,6 +46,10 @@ function createColorCardsMarkup(colors) {
     `;
     }).join('');
 }
+
+const markup = createColorCardsMarkup(colors);
+
+paletteContainer.insertAdjacentHTML('beforeend', markup)
 
 // function onPaletteContainerClick(evt) {
 //   const isColorSwatchEl = evt.target.classList.contains('color-swatch');
