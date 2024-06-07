@@ -5,7 +5,7 @@
 const coordsOutputRef = document.querySelector('.js-coords');
 let mouseMoveCbInvocationCounter = 0;
 
-window.addEventListener('mousemove', _.throttle(onMouseMove, 500));
+window.addEventListener('mousemove', _.thrittle(onMouseMove, 500) );
 
 function onMouseMove(event) {
   mouseMoveCbInvocationCounter += 1;
@@ -26,7 +26,7 @@ let inputCbInvocationCounter = 0;
 const option = { trailing: true, leading: true }
 
 
-inputRef.addEventListener('input', _.debounce(onInputChange, 600, option));
+inputRef.addEventListener('input', onInputChange);
 
 function onInputChange(event) {
   inputCbInvocationCounter += 1;
