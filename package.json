@@ -1,0 +1,25 @@
+{
+	"name": "fe-1y_3_23",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/IrynaSokolova-Quanandrya/fe-1y_3_23-js.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/IrynaSokolova-Quanandrya/fe-1y_3_23-js/issues"
+	},
+	"homepage": "https://github.com/IrynaSokolova-Quanandrya/fe-1y_3_23-js",
+	"dependencies": {
+		"nanoid": "^5.0.7",
+		"validator": "^13.12.0"
+	}
+}
