@@ -1,0 +1,24 @@
+{
+  "name": "fe-1y_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /fe-1y_3/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrynaSokolova-Quanandrya/FE-1y_3-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrynaSokolova-Quanandrya/FE-1y_3-js/issues"
+  },
+  "homepage": "https://github.com/IrynaSokolova-Quanandrya/FE-1y_3-js#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "pnotify": "^5.2.0"
+  }
+}
