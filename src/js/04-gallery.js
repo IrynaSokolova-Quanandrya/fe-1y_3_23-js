@@ -1,8 +1,11 @@
+import gallaryItemTpl from '../templates/gallery-item.handlebars'
+import countries from './countries.json'
 import '../css/common.css';
 import '../css/gallery.css';
 
-
-
+const gallaryListRef = document.querySelector('.js-gallery')
+const markup = gallaryItemTpl(countries)
+gallaryListRef.insertAdjacentHTML('beforeend', markup)
 
 
 
