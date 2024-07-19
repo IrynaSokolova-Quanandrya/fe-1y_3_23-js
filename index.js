@@ -1,9 +1,8 @@
-document.addEventListener('DOMContentLoaded', () => {
+// document.addEventListener('DOMContentLoaded', () => {
   const studentForm = document.getElementById('studentForm');
   const studentsTableBody = document.getElementById('studentsTable').querySelector('tbody');
 
     studentForm.addEventListener('submit', (e) => {
-      console.log('hi');
     e.preventDefault();
     const student = {
       id: Date.now(),
@@ -43,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
     const addStudent = (student) => {
-      console.log(student);
     const students = JSON.parse(localStorage.getItem('students')) || [];
     students.push(student);
     localStorage.setItem('students', JSON.stringify(students));
@@ -76,4 +74,4 @@ document.addEventListener('DOMContentLoaded', () => {
   window.deleteStudent = deleteStudent;
 
   loadStudents();
-});
+// });
