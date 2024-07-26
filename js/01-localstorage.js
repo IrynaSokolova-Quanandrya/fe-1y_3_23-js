@@ -4,17 +4,24 @@
  * 
  */
 
-const student={
-    name: "Viktor",
-    age:19,
-    location: 'Kharkiv'
+localStorage.setItem('name', 'Ira')
+localStorage.setItem('age', 15)
+
+const localStorageData = localStorage.getItem('age')
+console.log(localStorageData);
+
+const user = {
+    name: 'Bob',
+    age: 15
 }
+ 
 
-console.log(localStorage);
+localStorage.setItem('user', JSON.stringify(user))
 
-localStorage.setItem("student", JSON.stringify(student))
+const userData = localStorage.getItem('user')
+console.log(userData);
 
-const storageKey = localStorage.getItem("student")
-console.log(JSON.parse(storageKey));
+const parsedUserDate = JSON.parse(userData)
+console.log(parsedUserDate);
 
-// localStorage.removeItem("data")
+localStorage.removeItem('value')

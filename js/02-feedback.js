@@ -10,6 +10,34 @@ const textareaRef = document.querySelector('.js-feedback-form textarea');
 
 formRef.addEventListener('submit', handleFormSubmit);
 textareaRef.addEventListener('input', handleTextareaInput);
+getValueFromLocalStorage()
+/*
+ * - Отримуємо значення поля
+ * - Зберігаємо його у сховищі
+ * - Можно додати throttle
+ */
+function handleTextareaInput(event) {
+    const message = event.currentTarget.value    
+    localStorage.setItem('message', message)
+}
+
+/*
+ * - Отримуємо значення зі сховища
+ * - Якщо там щось було, оновлюємо DOM
+ */
+function getValueFromLocalStorage() {
+  const message = localStorage.getItem('message')
+    textareaRef.value = message
+}
+
+
+
+
+
+
+
+
+
 // formRef.addEventListener('input', handleInputValue);
 
 // const formData = {}
@@ -34,22 +62,8 @@ function handleFormSubmit(event) {
 }
 
 
-/*
- * - Отримуємо значення поля
- * - Зберігаємо його у сховищі
- * - Можно додати throttle
- */
-function handleTextareaInput(event) {
-   
-}
-/*
- * - Отримуємо значення зі сховища
- * - Якщо там щось було, оновлюємо DOM
- */
-function getValueFromLocalStorage() {
-  
-      
-}
+
+
 
 // ДОДАТКОВО
 // зробити так щоб зберігало не тільки повідомлення, 
