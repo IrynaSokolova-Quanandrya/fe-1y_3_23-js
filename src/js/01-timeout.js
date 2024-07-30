@@ -1,59 +1,35 @@
 // import '../css/common.css';
 
-const userName = 'Poly';
 
-// console.log(userName);
+// console.log('Логування до таймауту');
 
+// const timeoutId = setTimeout((value) => {
+//     console.log(`Виклик функції через ${value}мс `);
+// }, 2000, 2000)
 
-
-// console.log('Виконання першого логу');
-
-// console.log('Виконання другого логу');
-
-
-/*
- * Метод window.setTimeout(callback, delay, args)
- */
-const logger = () => {
-    console.log(`Код всередині setTimeout`);
-}
-console.log('Before');
-const firstTimeoutId = setTimeout(()=>{
-    console.log('Перший планувальник');
-}, 100);
-
-const timeoutId = setTimeout(()=>{
-    console.log('Другий планувальник');
-}, 100);
-
-console.log('after');
-clearTimeout(timeoutId);
-clearTimeout(firstTimeoutId);
-
-/*
- * Очистка таймаута с clearTimeout(timeoutId)
- */
-
+// console.log(timeoutId);
 
 // clearTimeout(timeoutId)
 
+// console.log('Логування після таймауту');
+
+
+// Коли запуститься запланована функція?
+// 1. Після циклу.
+// 2. До циклу.
+// 3. На початку циклу.
 
 
 
+// Що буде показувати alert?
 
+let num = 0;
 
-// const shouldCancelTimer = Math.random() > 0.3;
-// console.log(shouldCancelTimer);
+setTimeout(() => alert(num), 100); // ?
 
-// if (shouldCancelTimer) {
-//   clearTimeout(timerId);
-// }
+// припустимо, що час виконання цієї функції > 100 мс
 
-// for (var i = 0; i < 3; i++) {
-//   setTimeout(()=>console.log(i), 1);
-  
-// }
-// for (let i = 0; i < 3; i++) {
-//   setTimeout(()=>console.log(i), 1);
-  
-// }
+for(let i = 0; i < 1000; i += 1) {
+num+=1;
+console.log(num);
+}
