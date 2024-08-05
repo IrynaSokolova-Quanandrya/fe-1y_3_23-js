@@ -1,3 +1,35 @@
+/**
+ * Робимо набридалку
+ */
+ 
+const promptDelay = 1000;
+const maxPromptAttempts = 3;
+
+let promptCounter = 0;
+let hasSubscribed = false;
+
+setTimeout(() => {
+   console.log('запускаємо модалку');
+   hasSubscribed = confirm('Підпишись')
+   promptCounter+=1
+}, 2000)
+
+
+
+const intervalId = setInterval(() => {
+   if (promptCounter === 3 || hasSubscribed) {
+   console.log('закриваємо модалку');
+      clearInterval(intervalId)
+      return;
+}
+   confirm('Підпишись')
+   promptCounter += 1
+   console.log(promptCounter);
+}, 3000)
+
+
+
+
 // ЗАДАЧА 1
 /**
  * Напишіть функцію printNumbers(from, to) яка виводить число кожну секунду, 
