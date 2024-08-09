@@ -2,15 +2,22 @@
  * Робимо набридалку
  */
  
+// function fnA(params) {
+
+
+// }
+
+// const result = fnA();
+
 const promptDelay = 1000;
 const maxPromptAttempts = 3;
 
 let promptCounter = 0;
 let hasSubscribed = false;
 
-setTimeout(() => {
-   console.log('запускаємо модалку');
-   hasSubscribed = confirm('Підпишись')
+
+const timeoutId = setTimeout(() => {
+   confirm('Підпишись')
    promptCounter+=1
 }, 2000)
 
@@ -18,13 +25,13 @@ setTimeout(() => {
 
 const intervalId = setInterval(() => {
    if (promptCounter === 3 || hasSubscribed) {
-   console.log('закриваємо модалку');
       clearInterval(intervalId)
       return;
 }
-   confirm('Підпишись')
+   hasSubscribed = confirm('Підпишись')
    promptCounter += 1
-   console.log(promptCounter);
+
+   
 }, 3000)
 
 
