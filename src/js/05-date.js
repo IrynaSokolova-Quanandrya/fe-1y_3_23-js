@@ -27,7 +27,7 @@ import '../css/common.css';
 // }, 2000)
 
 const date = function(){
-    console.log(new Date(50000));
+    // console.log(new Date(50000));
     return new Date(50000);
 };
 const result = date()
@@ -35,7 +35,7 @@ const result = date()
 // 2. Створити функцію, яка приймає дату та повертає рік.
 
 const year = function(date){
-    console.log(date.getFullYear());
+    // console.log(date.getFullYear());
 };
 year(result)
 
