@@ -8,22 +8,29 @@ const refs = {
 
 const timer = {
   intervalId: null,
+ isActive: false,
 
-  start () {
+  start() {
+    if (this.isActive) {
+      return
+    }
     const startTime = Date.now(); 
 
+    this.isActive = true
     this.intervalId = setInterval(() => {
-      const currentTime = Date.now();
-                            
+      const currentTime = Date.now();                            
       const deltaTime = currentTime - startTime;
 
-      console.log('deltaTime: ', deltaTime);
+      const time = getTimeComponents(deltaTime)
+      console.log('time: ', time);
     },1000)
   },
   stop() {
-        clearInterval(this.intervalId);
+    clearInterval(this.intervalId);
+    this.isActive=false
     }
 }
+
 
 
 refs.startBtn.addEventListener('click', () => {
@@ -31,10 +38,34 @@ refs.startBtn.addEventListener('click', () => {
 })
 
 
+refs.stopBtn.addEventListener('click', () => {
+  timer.stop()
+})
 
 
+/*
+   * Приймає число, приводить його в рядок і додає на початок 0 
+   * якщо число менше 2-х знаків
+   */
+ 
+function pad(value) {                
+    return String(value).padStart(2, '0');
+  }
 
+/*
+   * - Приймає час в мілісекундах
+   * - Вираховує скільки в них вміщується годин/хвилин/секунд
+   * - Повертає об'єкт з властивостями hours, mins, secs
+   */
+  function getTimeComponents(time) {
+    const hours = pad(
+      Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+    );
+    const mins = pad(Math.floor((time % (1000 * 60 * 60)) / (1000 * 60)));
+    const secs = pad(Math.floor((time % (1000 * 60)) / 1000));
 
+    return { hours, mins, secs };
+  }
 
 
 // class Timer {
@@ -75,28 +106,28 @@ refs.startBtn.addEventListener('click', () => {
 //     this.onTick(time);
 //   }
 
-//   /*
-//    * - Приймає час в мілісекундах
-//    * - Вираховує скільки в них вміщується годин/хвилин/секунд
-//    * - Повертає об'єкт з властивостями hours, mins, secs
-//    */
-//   getTimeComponents(time) {
-//     const hours = this.pad(
-//       Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-//     );
-//     const mins = this.pad(Math.floor((time % (1000 * 60 * 60)) / (1000 * 60)));
-//     const secs = this.pad(Math.floor((time % (1000 * 60)) / 1000));
+  // /*
+  //  * - Приймає час в мілісекундах
+  //  * - Вираховує скільки в них вміщується годин/хвилин/секунд
+  //  * - Повертає об'єкт з властивостями hours, mins, secs
+  //  */
+  // getTimeComponents(time) {
+  //   const hours = this.pad(
+  //     Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+  //   );
+  //   const mins = this.pad(Math.floor((time % (1000 * 60 * 60)) / (1000 * 60)));
+  //   const secs = this.pad(Math.floor((time % (1000 * 60)) / 1000));
 
-//     return { hours, mins, secs };
-//   }
+  //   return { hours, mins, secs };
+  // }
 
-//   /*
-//    * Приймає число, приводить його в рядок і додає на початок 0 
-//    * якщо число менше 2-х знаків
-//    */
-//   pad(value) {
-//     return String(value).padStart(2, '0');
-//   }
+  // /*
+  //  * Приймає число, приводить його в рядок і додає на початок 0 
+  //  * якщо число менше 2-х знаків
+  //  */
+  // pad(value) {
+  //   return String(value).padStart(2, '0');
+  // }
 // }
 
 // const timer = new Timer({
