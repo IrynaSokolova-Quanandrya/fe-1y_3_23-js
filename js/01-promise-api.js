@@ -11,29 +11,29 @@
  */
 
 
-const promise = new Promise((resolve, reject) => {
-  const isFulfilled = Math.random() > 0.5
+// const promise = new Promise((resolve, reject) => {
+//   const isFulfilled = Math.random() > 0.5
 
-  if (isFulfilled) {
-    resolve('Проміс виконався успішно')
-  }  
-  reject('Ой, щось пішло не так, проміс відхилено')
-})
+//   if (isFulfilled) {
+//     resolve('Проміс виконався успішно')
+//   }  
+//   reject('Ой, щось пішло не так, проміс відхилено')
+// })
 
 // console.log(promise);
-promise
-  .then(result => {
-    console.log('result: ', result)
-    return 5
-  })
-  .then(data => {
+// promise
+//   .then(result => {
+//     console.log('result: ', result)
+//     return 5
+//   })
+//   .then(data => {
     
-    console.log(data)
-    return data
-  })
-  .then(res => console.log(res))
-  .catch(error => console.log(error))
-  .finally(()=>{console.log('Я виконуюсь завжди');})
+//     console.log(data)
+//     return data
+//   })
+//   .then(res => console.log(res))
+//   .catch(error => console.log(error))
+//   .finally(()=>{console.log('Я виконуюсь завжди');})
 
 
 
@@ -83,3 +83,6 @@ promise
 //   })
 //   .catch(error => console.log(error))
 //   .finally(() => console.log('Я буду виконаний в любому випадку'));
+
+
+
