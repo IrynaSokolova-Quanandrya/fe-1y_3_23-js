@@ -9,16 +9,49 @@
  *  - finally() 
  * - 'https://pokeapi.co/api/v2/pokemon/5'
  */
+// [5, 12, 11, 57]
 
+// 10 % 2 === 0 
+// 11 % 2 // 1
+// 13 % 5 // 3
 
 // const promise = new Promise((resolve, reject) => {
-//   const isFulfilled = Math.random() > 0.5
+//     const isFullfild = Math.random() > 0.5
+    
+//     if (isFullfild) {
 
-//   if (isFulfilled) {
-//     resolve('Проміс виконався успішно')
-//   }  
-//   reject('Ой, щось пішло не так, проміс відхилено')
+//       resolve(10)
+//     }
+//     reject('Error')
 // })
+
+const promise = new Promise((resolve, reject) => {
+    const numbers = [2, 5, 8, 16]
+   const isFulfilld = numbers.every((number)=>{return number % 2 === 0 })
+    if (isFulfilld){
+        resolve('числа в масиві є парнимі')
+    }
+    reject('числа в масиві не є парнимі')
+})
+
+// console.log(promise);
+
+promise
+    .then((result) => {
+        console.log(result) 
+        return result
+    })
+    .then((data)=>{console.log(data)})
+    .catch((error) => { console.log(error) })
+    .finally(() => { console.log('Це кінцевий результат який виконається в будь-якому випадку') })
+
+
+
+
+
+
+
+
 
 // console.log(promise);
 // promise
