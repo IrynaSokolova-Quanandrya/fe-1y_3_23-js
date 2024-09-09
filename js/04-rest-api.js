@@ -7,12 +7,12 @@ const refs = {
 console.log(refs);
 
 refs.btn.addEventListener('click', () => {
+
   fetchPokemonById(refs.search.value)
     .then(pokemon => {
-
       const pokemonCard = `<div class="card">
   <div class="card-img-top">
-    <img src="" alt="">
+    <img src="${pokemon.sprites.front_default}" alt="">
   </div>
   <div class="card-body">
     <h2 class="card-title">Ім'я:${pokemon.name}</h2>
@@ -25,41 +25,43 @@ refs.btn.addEventListener('click', () => {
     </ul>
   </div>
 </div>`
+      
+      refs.container.innerHTML = pokemonCard
     })
 })
 
-refs.form.addEventListener('submit', onFormSubmit)
+// refs.form.addEventListener('submit', onFormSubmit)
 
-function onFormSubmit(e) {  
+// function onFormSubmit(e) {  
   
-  e.preventDefault()
-  console.log(e);
-  const form = e.currentTarget
+//   e.preventDefault()
+//   console.log(e);
+//   const form = e.currentTarget
  
-  const value = form.elements.query.value
+//   const value = form.elements.query.value
 
-  fetchPokemonById(value)
-    .then(pokemon => {
+//   fetchPokemonById(value)
+//     .then(pokemon => {
 
-      const pokemonCard = `<div class="card">
-  <div class="card-img-top">
-    <img src="" alt="">
-  </div>
-  <div class="card-body">
-    <h2 class="card-title">Ім'я: </h2>
-    <p class="card-text">Вага: </p>
-    <p class="card-text">Зріст: </p>
+//       const pokemonCard = `<div class="card">
+//   <div class="card-img-top">
+//     <img src="" alt="">
+//   </div>
+//   <div class="card-body">
+//     <h2 class="card-title">Ім'я: </h2>
+//     <p class="card-text">Вага: </p>
+//     <p class="card-text">Зріст: </p>
 
-    <p class="card-text"><b>Вміння</b></p>
-    <ul class="list-group"></ul>   
-      <li class="list-group-item"></li>    
-    </ul>
-  </div>
-</div>`
-    })
+//     <p class="card-text"><b>Вміння</b></p>
+//     <ul class="list-group"></ul>   
+//       <li class="list-group-item"></li>    
+//     </ul>
+//   </div>
+// </div>`
+//     })
 
-  e.reset()
-}
+//   e.reset()
+// }
 
 function fetchPokemonById(pokemonId) {
    return fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`)
