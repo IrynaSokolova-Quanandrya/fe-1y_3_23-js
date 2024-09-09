@@ -4,6 +4,84 @@
  * - Функція яка повертає проміс
  */
 
+const food = [  
+  'burger',
+  'pizza',
+  'pasta', 
+  'french fries'
+]
+console.log('food ', food);
+
+const newFood = food.map((dish)=>{return `${dish} - 100$`})
+
+console.log('newFood ', newFood);
+
+
+
+
+
+
+
+
+const promises = food.map(dish => makeOrder(dish))
+console.log(promises);
+
+Promise.all(promises).then(res=>console.log(res))
+Promise.race(promises).then(res=>console.log(res))
+Promise.any(promises).then(res=>console.log(res))
+
+
+
+/**
+ * 
+ * Напиши функцію delay(ms), яка повертає проміс, що переходить в стан "resolved" через ms мілісекунд. Значенням промісу, яке виповнилося має бути та кількість мілісекунд, яку передали під час виклику функції delay.} ms 
+ */
+// const delay = ms => {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       resolve(ms)
+//     }, ms)
+//   })
+// };
+// ​
+// const logger = time => console.log(`Resolved after ${time}ms`);
+// ​
+// // Виклич функції для перевірки
+// delay(2000).then(logger); // Resolved after 2000ms
+// delay(1000).then(logger); // Resolved after 1000ms
+// delay(1500).then(logger); // Resolved after 1500ms
+
+
+// function makeOrder(dish) {
+//   const promise = new Promise((resolve, reject) => {
+//     const isFullfild = Math.random() > 0.5
+    
+//     if (isFullfild) {
+//       resolve(`Ваше замовлення: ${dish} - виконано успішно!`)
+//     }
+//     reject(`Вибачте! В меню такої страви як ${dish} немає`)
+//   })
+//   return promise
+// }
+
+
+
+
+// makeOrder('pizza')
+//   .then(res => console.log(res))
+//   .catch(error=>console.log(error))
+
+
+
+
+
+
+
+
+
+
+
+
 // const pokemon = {
 //     name: 'Bulbazaur',
 //     skills: ['khjhg', 'hvhvh', 'poi'],
@@ -193,58 +271,4 @@
 // //   .catch(error => console.log(error));
 
 
-class CountdownTimer {
-  constructor({ selector, targetDate }) {
-    this.timer = document.querySelector(selector);
-    this.targetDate = targetDate;
 
-    this.refs = {
-      days: this.timer.querySelector('[data-value="days"]'),
-      hours: this.timer.querySelector('[data-value="hours"]'),
-      mins: this.timer.querySelector('[data-value="mins"]'),
-      secs: this.timer.querySelector('[data-value="secs"]'),
-    };
-
-    this.start();
-  }
-
-  start() {
-    this.updateClockface(0); // Оновити UI з початковими значеннями
-
-    setInterval(() => {
-      const currentTime = Date.now();
-      const time = this.targetDate - currentTime;
-
-      if (time <= 0) {
-          clearInterval(this.intervalId);
-          console.log(this.intervalId);
-        this.updateClockface(0);
-        return;
-      }
-
-      this.updateClockface(time);
-    }, 1000);
-  }
-
-  updateClockface(time) {
-    const days = Math.floor(time / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const mins = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
-    const secs = Math.floor((time % (1000 * 60)) / 1000);
-
-    this.refs.days.textContent = days;
-    this.refs.hours.textContent = this.pad(hours);
-    this.refs.mins.textContent = this.pad(mins);
-    this.refs.secs.textContent = this.pad(secs);
-  }
-
-  pad(value) {
-    return String(value).padStart(2, '0');
-  }
-}
-
-// Приклад використання
-new CountdownTimer({
-  selector: '#timer-1',
-  targetDate: new Date(2024, 7, 23, 2, 12), // Вкажіть дату, до якої треба вести зворотний відлік
-});

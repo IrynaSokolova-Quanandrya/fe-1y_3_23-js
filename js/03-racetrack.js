@@ -5,32 +5,33 @@ const horses = [
   'Flying Fox',
   'Seabiscuit',
 ];
-console.log(`🤖 Заїзд розпочався, ставки не приймаються!`);
+console.log(`%c🎉 Переможець, финишував за мс часу`,'color: green');
+// console.log(`🤖 Заїзд розпочався, ставки не приймаються!`);
 
 
-const promises = horses.map(horse => {
-  return run(horse)
-})
+// const promises = horses.map(horse => {
+//   return run(horse)
+// })
 
-Promise.race(promises)
-.then(({horse, time})=>{
-    console.log(`%c🎉 Переможець ${horse}, финишував за ${time}мс часу`,'color: green');
-})
+// Promise.race(promises)
+// .then(({horse, time})=>{
+//     console.log(`%c🎉 Переможець ${horse}, финишував за ${time}мс часу`,'color: green');
+// })
 
 
 
-function run(horse){
-    return new Promise((resolve, reject)=>{
-        const time = getRandomTime(3000, 4000)
+// function run(horse){
+//     return new Promise((resolve, reject)=>{
+//         const time = getRandomTime(3000, 4000)
 
-        setTimeout(()=>{
-            resolve({
-                horse,
-                time
-            })
-        },time)
-    })
-}
+//         setTimeout(()=>{
+//             resolve({
+//                 horse,
+//                 time
+//             })
+//         },time)
+//     })
+// }
 
 
 // run('Seabiscuit')
