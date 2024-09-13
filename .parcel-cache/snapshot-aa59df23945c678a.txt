@@ -1,6 +1,13 @@
+<<<<<<< Updated upstream
 29544
 128D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\reporter-cli\node_modules\@parcel\utils\test\replaceBundleReferences.test.js133701150033513913 0
 66D:\GoIT\Projects\fe-1y_3_23-js\node_modules\postcss-modules-values133701149764376065 1
+=======
+29552
+128D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\reporter-cli\node_modules\@parcel\utils\test\replaceBundleReferences.test.js133701150033513913 0
+66D:\GoIT\Projects\fe-1y_3_23-js\node_modules\postcss-modules-values133701149764376065 1
+43D:\GoIT\Projects\fe-1y_3_23-js\package.json133701150589125891 0
+>>>>>>> Stashed changes
 118D:\GoIT\Projects\fe-1y_3_23-js\node_modules\object.getownpropertydescriptors\node_modules\es-abstract\2015\ToObject.js133701150327857418 0
 51D:\GoIT\Projects\fe-1y_3_23-js\node_modules\foreach133701149778785816 1
 120D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\transformer-posthtml\node_modules\@parcel\utils\test\urlJoin.test.js133701150066315866 0
@@ -9,6 +16,10 @@
 105D:\GoIT\Projects\fe-1y_3_23-js\node_modules\core-js-compat\node_modules\semver\functions\compare-loose.js133701149794476274 0
 110D:\GoIT\Projects\fe-1y_3_23-js\node_modules\core-js\library\modules\es6.reflect.get-own-property-descriptor.js133701150335385275 0
 83D:\GoIT\Projects\fe-1y_3_23-js\node_modules\parcel-bundler\src\builtins\prelude2.js133701150145882199 0
+<<<<<<< Updated upstream
+=======
+48D:\GoIT\Projects\fe-1y_3_23-js\package-lock.json133701150589095302 0
+>>>>>>> Stashed changes
 68D:\GoIT\Projects\fe-1y_3_23-js\node_modules\w3c-hr-time\package.json133701149730079913 0
 121D:\GoIT\Projects\fe-1y_3_23-js\node_modules\object.getownpropertydescriptors\node_modules\es-abstract\2018\DayFromYear.js133701150096071773 0
 60D:\GoIT\Projects\fe-1y_3_23-js\node_modules\is-wsl\readme.md133701149688876679 0
@@ -56,6 +67,10 @@
 61D:\GoIT\Projects\fe-1y_3_23-js\node_modules\vendors\readme.md133701149688063073 0
 68D:\GoIT\Projects\fe-1y_3_23-js\node_modules\css-tree\dist\csstree.js133701149957122215 0
 81D:\GoIT\Projects\fe-1y_3_23-js\node_modules\core-js\fn\reflect\define-metadata.js133701150282395955 0
+<<<<<<< Updated upstream
+=======
+52D:\GoIT\Projects\fe-1y_3_23-js\src\01-fetch-api.html133701152956862369 0
+>>>>>>> Stashed changes
 64D:\GoIT\Projects\fe-1y_3_23-js\node_modules\domutils\.travis.yml133701149639484462 0
 76D:\GoIT\Projects\fe-1y_3_23-js\node_modules\package-json-from-dist\README.md133701149823256057 0
 65D:\GoIT\Projects\fe-1y_3_23-js\node_modules\unicode-trie\Makefile133701149804964906 0
@@ -65,8 +80,13 @@
 140D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\optimizer-htmlnano\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\030-config.md133701150019362364 0
 89D:\GoIT\Projects\fe-1y_3_23-js\node_modules\domhandler\test\cases\05-tags_in_comment.json133701149829514587 0
 90D:\GoIT\Projects\fe-1y_3_23-js\node_modules\postcss-merge-longhand\dist\lib\decl\margin.js133701149831537165 0
+<<<<<<< Updated upstream
 41D:\GoIT\Projects\fe-1y_3_23-js\.gitignore133701161731142298 0
 112D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\optimizer-htmlnano\node_modules\posthtml-render\package.json133701149671300888 0
+=======
+112D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\optimizer-htmlnano\node_modules\posthtml-render\package.json133701149671300888 0
+41D:\GoIT\Projects\fe-1y_3_23-js\.gitignore133701112700109045 0
+>>>>>>> Stashed changes
 110D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\packager-html\node_modules\@parcel\utils\src\bundle-url.js133701149799892609 0
 73D:\GoIT\Projects\fe-1y_3_23-js\node_modules\uri-js\dist\esnext\uri.js.map133701149943062017 0
 78D:\GoIT\Projects\fe-1y_3_23-js\node_modules\deasync\spec\app\worker-threads.js133701149838851250 0
@@ -87,6 +107,10 @@
 81D:\GoIT\Projects\fe-1y_3_23-js\node_modules\wrap-ansi-cjs\node_modules\color-name133701149685020639 1
 68D:\GoIT\Projects\fe-1y_3_23-js\node_modules\os-browserify\browser.js133701149725942802 0
 99D:\GoIT\Projects\fe-1y_3_23-js\node_modules\core-js\library\modules\es6.reflect.set-prototype-of.js133701150338100926 0
+<<<<<<< Updated upstream
+=======
+47D:\GoIT\Projects\fe-1y_3_23-js\.prettierrc.json133701112700149765 0
+>>>>>>> Stashed changes
 64D:\GoIT\Projects\fe-1y_3_23-js\node_modules\tweetnacl\.npmignore133701149637895021 0
 62D:\GoIT\Projects\fe-1y_3_23-js\node_modules\es-abstract\es6.js133701150162642432 0
 74D:\GoIT\Projects\fe-1y_3_23-js\node_modules\es-abstract\2016\msFromTime.js133701150302668895 0
@@ -100,7 +124,11 @@
 59D:\GoIT\Projects\fe-1y_3_23-js\node_modules\lodash\clone.js133701150246298949 0
 86D:\GoIT\Projects\fe-1y_3_23-js\node_modules\request-promise-core\configure\request2.js133701149764202497 0
 112D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimend\node_modules\es-abstract\operations\2018.js133701149831552274 0
+<<<<<<< Updated upstream
 41D:\GoIT\Projects\fe-1y_3_23-js\index.html133701161731275097 0
+=======
+41D:\GoIT\Projects\fe-1y_3_23-js\index.html133701112700244978 0
+>>>>>>> Stashed changes
 66D:\GoIT\Projects\fe-1y_3_23-js\node_modules\lodash\fp\stubArray.js133701150365254845 0
 91D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@swc\helpers\cjs\_skip_first_generator_next.cjs133701150187291850 0
 121D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimend\node_modules\es-abstract\2015\OrdinaryHasInstance.js133701150282020789 0
@@ -112,6 +140,10 @@
 102D:\GoIT\Projects\fe-1y_3_23-js\node_modules\regenerate-unicode-properties\Binary_Property\Hex_Digit.js133701150118654121 0
 52D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@nodelib133701149434842801 1
 61D:\GoIT\Projects\fe-1y_3_23-js\node_modules\has-value\LICENSE133701149662966514 0
+<<<<<<< Updated upstream
+=======
+38D:\GoIT\Projects\fe-1y_3_23-js\src\css133701112700646621 1
+>>>>>>> Stashed changes
 98D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\core\node_modules\@parcel\workers\src\index.js133701149894813991 0
 107D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimend\node_modules\es-abstract\5\ToUint32.js133701150335779221 0
 120D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\packager-svg\node_modules\entities\lib\generated\decode-data-html.js133701149729213199 0
@@ -128,6 +160,10 @@
 69D:\GoIT\Projects\fe-1y_3_23-js\node_modules\xmlchars\xml\1.0\ed5.d.ts133701149866504783 0
 94D:\GoIT\Projects\fe-1y_3_23-js\node_modules\object.getownpropertydescriptors\.github\workflows133701149854309285 1
 57D:\GoIT\Projects\fe-1y_3_23-js\node_modules\svgo\lib\svgo133701150025392509 1
+<<<<<<< Updated upstream
+=======
+40D:\GoIT\Projects\fe-1y_3_23-js\README.md133701112700198747 0
+>>>>>>> Stashed changes
 97D:\GoIT\Projects\fe-1y_3_23-js\node_modules\parcel\node_modules\node-addon-api\node_addon_api.gyp133701149664754496 0
 94D:\GoIT\Projects\fe-1y_3_23-js\node_modules\handlebars\dist\amd\handlebars\compiler\helpers.js133701150066026222 0
 58D:\GoIT\Projects\fe-1y_3_23-js\node_modules\http-signature133701149828290408 1
@@ -140,6 +176,10 @@
 105D:\GoIT\Projects\fe-1y_3_23-js\node_modules\regenerate-unicode-properties\Script_Extensions\Devanagari.js133701150064475903 0
 55D:\GoIT\Projects\fe-1y_3_23-js\node_modules\create-hash133701149779135940 1
 68D:\GoIT\Projects\fe-1y_3_23-js\node_modules\pako\lib\zlib\inffast.js133701149952859667 0
+<<<<<<< Updated upstream
+=======
+34D:\GoIT\Projects\fe-1y_3_23-js\src133701112700929105 1
+>>>>>>> Stashed changes
 76D:\GoIT\Projects\fe-1y_3_23-js\node_modules\expand-brackets\lib\compilers.js133701149761802702 0
 73D:\GoIT\Projects\fe-1y_3_23-js\node_modules\unicode-trie\test\test.coffee133701149821673455 0
 64D:\GoIT\Projects\fe-1y_3_23-js\node_modules\lodash\fp\forEach.js133701150305239762 0
@@ -154,9 +194,18 @@
 56D:\GoIT\Projects\fe-1y_3_23-js\node_modules\uniq\uniq.js133701149725617884 0
 69D:\GoIT\Projects\fe-1y_3_23-js\node_modules\es-abstract\5\ToNumber.js133701150353243816 0
 68D:\GoIT\Projects\fe-1y_3_23-js\node_modules\util.promisify\README.md133701149808742824 0
+<<<<<<< Updated upstream
 105D:\GoIT\Projects\fe-1y_3_23-js\node_modules\merge-source-map\node_modules\source-map\lib\binary-search.js133701149894242059 0
 123D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\optimizer-htmlnano\node_modules\purgecss\node_modules\commander\esm.mjs133701149847170786 0
 77D:\GoIT\Projects\fe-1y_3_23-js\node_modules\svgo\plugins\removeXMLProcInst.js133701150016393298 0
+=======
+57D:\GoIT\Projects\fe-1y_3_23-js\src\templates\articles.hbs133701112700973627 0
+47D:\GoIT\Projects\fe-1y_3_23-js\src\02-cors.html133701112700521917 0
+105D:\GoIT\Projects\fe-1y_3_23-js\node_modules\merge-source-map\node_modules\source-map\lib\binary-search.js133701149894242059 0
+123D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\optimizer-htmlnano\node_modules\purgecss\node_modules\commander\esm.mjs133701149847170786 0
+77D:\GoIT\Projects\fe-1y_3_23-js\node_modules\svgo\plugins\removeXMLProcInst.js133701150016393298 0
+53D:\GoIT\Projects\fe-1y_3_23-js\src\03-pagination.html133701112700586832 0
+>>>>>>> Stashed changes
 68D:\GoIT\Projects\fe-1y_3_23-js\node_modules\static-module\test\fs.js133701149950750494 0
 64D:\GoIT\Projects\fe-1y_3_23-js\node_modules\json-schema-traverse133701149761635452 1
 59D:\GoIT\Projects\fe-1y_3_23-js\node_modules\uuid\LICENSE.md133701149861819423 0
@@ -167,6 +216,10 @@
 104D:\GoIT\Projects\fe-1y_3_23-js\node_modules\util.promisify\node_modules\es-abstract\2019\HourFromTime.js133701150176750003 0
 79D:\GoIT\Projects\fe-1y_3_23-js\node_modules\core-js\fn\symbol\async-iterator.js133701150219905575 0
 77D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\reporter-cli\package.json133701149850619666 0
+<<<<<<< Updated upstream
+=======
+45D:\GoIT\Projects\fe-1y_3_23-js\src\index.html133701112700696454 0
+>>>>>>> Stashed changes
 65D:\GoIT\Projects\fe-1y_3_23-js\node_modules\object-inspect\.nycrc133701149662518546 0
 55D:\GoIT\Projects\fe-1y_3_23-js\node_modules\es-abstract133701150364855128 1
 106D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimend\node_modules\es-abstract\2016\GetV.js133701150168251025 0
@@ -180,13 +233,23 @@
 107D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\transformer-babel\node_modules\ansi-styles\package.json133701149665771717 0
 111D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimstart\node_modules\es-abstract\helpers\sign.js133701150303340873 0
 99D:\GoIT\Projects\fe-1y_3_23-js\node_modules\object.values\node_modules\es-abstract\2018\IsRegExp.js133701150222737578 0
+<<<<<<< Updated upstream
 73D:\GoIT\Projects\fe-1y_3_23-js\node_modules\uglify-js\tools\domprops.json133701149930705632 0
+=======
+43D:\GoIT\Projects\fe-1y_3_23-js\src\index.js133701112700696454 0
+73D:\GoIT\Projects\fe-1y_3_23-js\node_modules\uglify-js\tools\domprops.json133701149930705632 0
+37D:\GoIT\Projects\fe-1y_3_23-js\src\js133701112700914071 1
+>>>>>>> Stashed changes
 67D:\GoIT\Projects\fe-1y_3_23-js\node_modules\lodash\fp\assignWith.js133701150223595139 0
 75D:\GoIT\Projects\fe-1y_3_23-js\node_modules\core-js\library\fn\math\sinh.js133701150387393176 0
 96D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@babel\helper-member-expression-to-functions\LICENSE133701149600652861 0
 72D:\GoIT\Projects\fe-1y_3_23-js\node_modules\uri-js\dist\es5\uri.all.d.ts133701149977497663 0
 109D:\GoIT\Projects\fe-1y_3_23-js\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\input.js133701149884598640 0
 87D:\GoIT\Projects\fe-1y_3_23-js\node_modules\uncss\node_modules\is-absolute-url\index.js133701149642679281 0
+<<<<<<< Updated upstream
+=======
+53D:\GoIT\Projects\fe-1y_3_23-js\src\js\01-fetch-api.js133701148497863960 0
+>>>>>>> Stashed changes
 110D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimstart\node_modules\es-abstract\2019\Invoke.js133701150187911223 0
 73D:\GoIT\Projects\fe-1y_3_23-js\node_modules\iconv-lite\encodings\index.js133701149776652063 0
 87D:\GoIT\Projects\fe-1y_3_23-js\node_modules\parcel-bundler\src\packagers\CSSPackager.js133701150152060506 0
@@ -204,6 +267,10 @@
 96D:\GoIT\Projects\fe-1y_3_23-js\node_modules\jsdom\lib\jsdom\living\helpers\internal-constants.js133701150207948764 0
 115D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo\index.js133701149814383103 0
 56D:\GoIT\Projects\fe-1y_3_23-js\node_modules\range-parser133701149715523453 1
+<<<<<<< Updated upstream
+=======
+44D:\GoIT\Projects\fe-1y_3_23-js\src\templates133701112701014674 1
+>>>>>>> Stashed changes
 65D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@iarna\toml\README.md133701149870805673 0
 61D:\GoIT\Projects\fe-1y_3_23-js\node_modules\node-libs-browser133701149699788418 1
 54D:\GoIT\Projects\fe-1y_3_23-js\node_modules\strip-ansi133701149680256141 1
@@ -212,10 +279,18 @@
 100D:\GoIT\Projects\fe-1y_3_23-js\node_modules\regenerate-unicode-properties\Script_Extensions\Takri.js133701150246945802 0
 90D:\GoIT\Projects\fe-1y_3_23-js\node_modules\core-js\library\modules\_flatten-into-array.js133701150060463995 0
 113D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimend\node_modules\es-abstract\2019\GetIterator.js133701150155444081 0
+<<<<<<< Updated upstream
+=======
+61D:\GoIT\Projects\fe-1y_3_23-js\src\templates\pokemon-card.hbs133701112701014674 0
+>>>>>>> Stashed changes
 92D:\GoIT\Projects\fe-1y_3_23-js\node_modules\core-js\library\modules\es6.typed.int32-array.js133701150351136227 0
 60D:\GoIT\Projects\fe-1y_3_23-js\node_modules\uncss\src\lib.js133701149680675370 0
 79D:\GoIT\Projects\fe-1y_3_23-js\node_modules\core-js\library\fn\string\strike.js133701150388441672 0
 102D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\transformer-babel\node_modules\ansi-styles\license133701149601523165 0
+<<<<<<< Updated upstream
+=======
+48D:\GoIT\Projects\fe-1y_3_23-js\src\js\02-cors.js133701112700818882 0
+>>>>>>> Stashed changes
 52D:\GoIT\Projects\fe-1y_3_23-js\node_modules\parseurl133701149716290353 1
 62D:\GoIT\Projects\fe-1y_3_23-js\node_modules\lodash\fp\times.js133701150367043872 0
 83D:\GoIT\Projects\fe-1y_3_23-js\node_modules\core-js\modules\es6.number.is-finite.js133701150321834824 0
@@ -226,6 +301,10 @@
 107D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\optimizer-htmlnano\node_modules\domhandler\package.json133701149710993335 0
 89D:\GoIT\Projects\fe-1y_3_23-js\node_modules\regenerate-unicode-properties\Script\Oriya.js133701150200931565 0
 125D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\cache\node_modules\@parcel\workers\test\integration\workerfarm\ipc-pid.js133701149897812976 0
+<<<<<<< Updated upstream
+=======
+54D:\GoIT\Projects\fe-1y_3_23-js\src\js\03-pagination.js133701112700868726 0
+>>>>>>> Stashed changes
 51D:\GoIT\Projects\fe-1y_3_23-js\node_modules\kind-of133701149716249428 1
 100D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@swc\helpers\_\_initializer_define_property\package.json133701150073724229 0
 109D:\GoIT\Projects\fe-1y_3_23-js\node_modules\regenerate-unicode-properties\General_Category\Nonspacing_Mark.js133701150187291850 0
@@ -243,12 +322,20 @@
 72D:\GoIT\Projects\fe-1y_3_23-js\node_modules\cssom\lib\CSSFontFaceRule.js133701149756988489 0
 67D:\GoIT\Projects\fe-1y_3_23-js\node_modules\whatwg-url\lib\infra.js133701149603160479 0
 107D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\node-resolver-core\node_modules\@parcel\fs\src\types.js133701149839563081 0
+<<<<<<< Updated upstream
+=======
+52D:\GoIT\Projects\fe-1y_3_23-js\src\js\api-service.js133701112700929105 0
+>>>>>>> Stashed changes
 88D:\GoIT\Projects\fe-1y_3_23-js\node_modules\package-json-from-dist\dist\esm\package.json133701149729905326 0
 116D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\optimizer-css\node_modules\@parcel\utils\test\collection.test.js133701149819651397 0
 92D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\reporter-cli\node_modules\supports-color133701149724462686 1
 97D:\GoIT\Projects\fe-1y_3_23-js\node_modules\caniuse-lite\data\features\stricttransportsecurity.js133701150348215052 0
 49D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@lmdb133701150577236776 1
 74D:\GoIT\Projects\fe-1y_3_23-js\node_modules\type-fest\ts41\snake-case.d.ts133701149953808215 0
+<<<<<<< Updated upstream
+=======
+49D:\GoIT\Projects\fe-1y_3_23-js\src\css\common.css133701112700646621 0
+>>>>>>> Stashed changes
 99D:\GoIT\Projects\fe-1y_3_23-js\node_modules\util.promisify\node_modules\es-abstract\2016\MakeDay.js133701150252830075 0
 96D:\GoIT\Projects\fe-1y_3_23-js\node_modules\jsdom\lib\jsdom\living\generated\HTMLTableElement.js133701150156435213 0
 82D:\GoIT\Projects\fe-1y_3_23-js\node_modules\parcel-bundler\lib\builtins\helpers.js133701149954805308 0
@@ -315,7 +402,10 @@
 50D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@types133701149434852766 1
 121D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\moveGroupAttrsToElems.js133701149953390380 0
 115D:\GoIT\Projects\fe-1y_3_23-js\node_modules\regenerate-unicode-properties\Script_Extensions\Egyptian_Hieroglyphs.js133701150073561909 0
+<<<<<<< Updated upstream
 48D:\GoIT\Projects\fe-1y_3_23-js\03-racetrack.html133701161731207660 0
+=======
+>>>>>>> Stashed changes
 78D:\GoIT\Projects\fe-1y_3_23-js\node_modules\caniuse-lite\data\features\hevc.js133701150272981019 0
 77D:\GoIT\Projects\fe-1y_3_23-js\node_modules\regenerator-transform\lib\util.js133701149844720682 0
 82D:\GoIT\Projects\fe-1y_3_23-js\node_modules\core-js\library\fn\number\parse-int.js133701150383950626 0
@@ -4079,7 +4169,10 @@
 110D:\GoIT\Projects\fe-1y_3_23-js\node_modules\util.promisify\node_modules\es-abstract\2019\SameValueNonNumber.js133701150293133876 0
 112D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\attributes.js133701149692221622 0
 110D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimstart\node_modules\es-abstract\5\ToBoolean.js133701150320156001 0
+<<<<<<< Updated upstream
 39D:\GoIT\Projects\fe-1y_3_23-js\index.js133701161731304968 0
+=======
+>>>>>>> Stashed changes
 121D:\GoIT\Projects\fe-1y_3_23-js\node_modules\util.promisify\node_modules\es-abstract\.github\workflows\codeql-analysis.yml133701150344185823 0
 65D:\GoIT\Projects\fe-1y_3_23-js\node_modules\whatwg-url\lib\URL.js133701149752094039 0
 74D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\logger\test\mocha.opts133701149864785709 0
@@ -5823,7 +5916,10 @@
 103D:\GoIT\Projects\fe-1y_3_23-js\node_modules\css-modules-loader-core\node_modules\postcss\lib\warning.js133701149960911069 0
 57D:\GoIT\Projects\fe-1y_3_23-js\node_modules\.bin\svgo.ps1133701150403465427 0
 114D:\GoIT\Projects\fe-1y_3_23-js\node_modules\util.promisify\node_modules\es-abstract\2016\OrdinaryGetPrototypeOf.js133701150279491113 0
+<<<<<<< Updated upstream
 49D:\GoIT\Projects\fe-1y_3_23-js\js\03-racetrack.js133701161731358041 0
+=======
+>>>>>>> Stashed changes
 74D:\GoIT\Projects\fe-1y_3_23-js\node_modules\core-js\fn\math\deg-per-rad.js133701150286110276 0
 85D:\GoIT\Projects\fe-1y_3_23-js\node_modules\postcss-normalize-display-values\dist\lib133701149730462369 1
 122D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimstart\node_modules\es-abstract\2018\GetOwnPropertyKeys.js133701150160797659 0
@@ -8851,7 +8947,10 @@
 108D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimend\node_modules\es-abstract\5\ToBoolean.js133701150318964836 0
 118D:\GoIT\Projects\fe-1y_3_23-js\node_modules\object.getownpropertydescriptors\node_modules\es-abstract\5\DayFromYear.js133701150098596387 0
 108D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimend\node_modules\es-abstract\5\ToInteger.js133701150325958727 0
+<<<<<<< Updated upstream
 45D:\GoIT\Projects\fe-1y_3_23-js\css\common.css133701161731254976 0
+=======
+>>>>>>> Stashed changes
 72D:\GoIT\Projects\fe-1y_3_23-js\node_modules\deasync\bin\linux-x64-node-6133701150020853352 1
 99D:\GoIT\Projects\fe-1y_3_23-js\node_modules\postcss-modules-values\node_modules\postcss\lib\root.js133701149956172573 0
 107D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimend\node_modules\es-abstract\5\ToNumber.js133701150327702420 0
@@ -8959,7 +9058,10 @@
 127D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimend\node_modules\es-abstract\2019\OrdinaryDefineOwnProperty.js133701150277875598 0
 124D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimend\node_modules\es-abstract\2019\OrdinaryGetOwnProperty.js133701150279583938 0
 124D:\GoIT\Projects\fe-1y_3_23-js\node_modules\string.prototype.trimend\node_modules\es-abstract\2019\OrdinarySetPrototypeOf.js133701150286054583 0
+<<<<<<< Updated upstream
 54D:\GoIT\Projects\fe-1y_3_23-js\02-promisification.html133701161731187165 0
+=======
+>>>>>>> Stashed changes
 105D:\GoIT\Projects\fe-1y_3_23-js\node_modules\object.values\node_modules\es-abstract\2019\IsStringPrefix.js133701150230204659 0
 98D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\core\node_modules\@parcel\workers\lib\child.js133701149768628414 0
 114D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\optimizer-svgo\node_modules\@parcel\utils\test\urlJoin.test.js133701150065679145 0
@@ -16867,7 +16969,10 @@
 93D:\GoIT\Projects\fe-1y_3_23-js\node_modules\csso\node_modules\css-tree\lib\syntax\node\Raw.js133701150090395778 0
 70D:\GoIT\Projects\fe-1y_3_23-js\node_modules\lodash\fp\invokeArgsMap.js133701150320675699 0
 64D:\GoIT\Projects\fe-1y_3_23-js\node_modules\lodash\fp\isMatch.js133701150327998792 0
+<<<<<<< Updated upstream
 50D:\GoIT\Projects\fe-1y_3_23-js\01-promise-api.html133701161731162168 0
+=======
+>>>>>>> Stashed changes
 70D:\GoIT\Projects\fe-1y_3_23-js\node_modules\lodash\fp\isArrayBuffer.js133701150322258589 0
 79D:\GoIT\Projects\fe-1y_3_23-js\node_modules\core-js\modules\es6.regexp.match.js133701150340879150 0
 66D:\GoIT\Projects\fe-1y_3_23-js\node_modules\lodash\fp\isElement.js133701150324503161 0
@@ -22868,7 +22973,10 @@
 88D:\GoIT\Projects\fe-1y_3_23-js\node_modules\base\node_modules\is-data-descriptor\LICENSE133701149666830361 0
 93D:\GoIT\Projects\fe-1y_3_23-js\node_modules\base\node_modules\is-data-descriptor\package.json133701149602937395 0
 90D:\GoIT\Projects\fe-1y_3_23-js\node_modules\base\node_modules\is-data-descriptor\README.md133701149693598189 0
+<<<<<<< Updated upstream
 48D:\GoIT\Projects\fe-1y_3_23-js\js\04-rest-api.js133701155402253440 0
+=======
+>>>>>>> Stashed changes
 93D:\GoIT\Projects\fe-1y_3_23-js\node_modules\base\node_modules\is-accessor-descriptor\index.js133701149643051090 0
 92D:\GoIT\Projects\fe-1y_3_23-js\node_modules\base\node_modules\is-accessor-descriptor\LICENSE133701149666841555 0
 97D:\GoIT\Projects\fe-1y_3_23-js\node_modules\base\node_modules\is-accessor-descriptor\package.json133701149602947449 0
@@ -24968,7 +25076,10 @@
 111D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\transformer-js\node_modules\@parcel\utils\src\DefaultMap.js133701149854882056 0
 112D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\transformer-js\node_modules\@parcel\utils\src\escape-html.js133701149883744520 0
 121D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\transformer-js\node_modules\@parcel\utils\src\generateBuildMetrics.js133701149886084861 0
+<<<<<<< Updated upstream
 34D:\GoIT\Projects\fe-1y_3_23-js\css133701161731242498 1
+=======
+>>>>>>> Stashed changes
 120D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\transformer-js\node_modules\@parcel\utils\src\generateCertificate.js133701149892838198 0
 122D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\runtime-react-refresh\node_modules\@parcel\utils\src\getModuleParts.js133701149911165772 0
 110D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\transformer-css\node_modules\@parcel\utils\src\debounce.js133701149850095753 0
@@ -25534,7 +25645,10 @@
 114D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\transformer-babel\node_modules\@parcel\utils\src\DefaultMap.js133701149854901994 0
 112D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\transformer-babel\node_modules\@parcel\utils\src\Deferred.js133701149868116032 0
 123D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\transformer-babel\node_modules\@parcel\utils\src\dependency-location.js133701149871951616 0
+<<<<<<< Updated upstream
 33D:\GoIT\Projects\fe-1y_3_23-js\js133701161731347850 1
+=======
+>>>>>>> Stashed changes
 118D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\transformer-babel\node_modules\@parcel\utils\src\getCertificate.js133701149896181189 0
 107D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\optimizer-htmlnano\node_modules\minimatch\dist\commonjs133701150005052446 1
 118D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\transformer-babel\node_modules\@parcel\utils\src\getModuleParts.js133701149911786977 0
@@ -26771,7 +26885,10 @@
 102D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\packager-css\node_modules\@parcel\utils\test\input133701149995975949 1
 114D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\packager-css\node_modules\@parcel\utils\test\sourcemap.test.js133701150053693929 0
 109D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\packager-css\node_modules\@parcel\utils\test\input\config133701150098648274 1
+<<<<<<< Updated upstream
 51D:\GoIT\Projects\fe-1y_3_23-js\js\01-promise-api.js133701161731324859 0
+=======
+>>>>>>> Stashed changes
 122D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\packager-css\node_modules\@parcel\utils\test\input\sourcemap\inline.js133701149997248813 0
 128D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\packager-css\node_modules\@parcel\utils\test\input\sourcemap\no-sourcemap.js133701150008431777 0
 134D:\GoIT\Projects\fe-1y_3_23-js\node_modules\@parcel\packager-css\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js.map133701150096659524 0
@@ -29541,5 +29658,8 @@
 53D:\GoIT\Projects\fe-1y_3_23-js\node_modules\.bin\uuid133701150403475477 0
 57D:\GoIT\Projects\fe-1y_3_23-js\node_modules\.bin\uuid.cmd133701150403475477 0
 58D:\GoIT\Projects\fe-1y_3_23-js\node_modules\.bin\which.cmd133701150403582413 0
+<<<<<<< Updated upstream
 40D:\GoIT\Projects\fe-1y_3_23-js\README.md133701161731227381 0
 55D:\GoIT\Projects\fe-1y_3_23-js\js\02-promisification.js133701161731334835 0
+=======
+>>>>>>> Stashed changes

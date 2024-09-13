@@ -20,10 +20,15 @@ import pokemonCardTpl from '../templates/pokemon-card.hbs'
  * - [https://newsapi.org/]
  */
 
-
 fetch(`https://pokeapi.co/api/v2/pokemon/5`)
-    .then(data => data.json())
-    .then(pokemon=>console.log(pokemon))
+.then(res=>console.log(res))
+
+
+
+
+// fetch(`https://pokeapi.co/api/v2/pokemon/5`)
+//     .then(data => data.json())
+//     .then(pokemon=>console.log(pokemon))
 
 
 
