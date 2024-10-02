@@ -6,15 +6,22 @@
 
 // Створюємо заголовок
 
-// const containerEl = document.querySelector('body')
-// const listEl = document.querySelector('.site-nav')
+const containerEl = document.querySelector('body')
+const listEl = document.querySelector('.site-nav')
+
+const titleRef = document.createElement('h1');
+titleRef.textContent = 'My first element';
+titleRef.classList.add('title');
+titleRef.style.color = 'tomato';
+console.log(titleRef);
+
+// element.append(el1, el2, ...)
+
+listEl.before(titleRef)
 
 
-const titleEl = document.createElement('h1');
-titleEl.textContent = 'Привіт, це перший мій створений елемент!';
-titleEl.classList.add('title');
-titleEl.style.backgroundColor = 'tomato';
-// console.log(titleEl); 
+
+
 
 // containerEl.appendChild(titleEl);
 // document.body.insertBefore(titleEl, listEl)
@@ -32,21 +39,21 @@ titleEl.style.backgroundColor = 'tomato';
 /*
  * Створюємо і додаємо новий пункт меню
  */
-const listEl = document.querySelector('.site-nav')
+// const listEl = document.querySelector('.site-nav')
 
-const itemEl = document.createElement('li');
-itemEl.classList.add('site-nav__item');
+// const itemEl = document.createElement('li');
+// itemEl.classList.add('site-nav__item');
 
-const linkEl = document.createElement('a');
-linkEl.href = '';
-linkEl.classList.add('site-nav__link');
-linkEl.textContent = 'Особистий кабінет';
+// const linkEl = document.createElement('a');
+// linkEl.href = '';
+// linkEl.classList.add('site-nav__link');
+// linkEl.textContent = 'Особистий кабінет';
 
 
 // console.log(linkEl);
 
-itemEl.appendChild(linkEl);
+// itemEl.appendChild(linkEl);
 // console.log(itemEl);
 // listEl.appendChild(itemEl)
 
-listEl.append(itemEl)
+// listEl.append(itemEl)

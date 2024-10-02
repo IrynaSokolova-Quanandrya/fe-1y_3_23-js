@@ -1,10 +1,5 @@
 const games =  [
-    {
-      id: 1,
-      name: 'Високосний калькулятор',
-      category: 'calculator',
 
-    },
     {
       name: 'Товар-2',
       description:
