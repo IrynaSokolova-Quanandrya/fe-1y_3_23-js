@@ -13,24 +13,26 @@ function getFruit(name) {
   return Promise.resolve(fruits[name]);
 }
 
-async function aMakeSmoothie() {
+// console.log(getFruit('strawberry'));
+
+async function makeSmoothie() {
+
   try {
-    console.time('aMakeSmoothie');
-    const apple = getFruit('apple');
-    const kiwi = getFruit('kiwi');
-    const berry = getFruit('strawberry');
-
-    const fruits = await Promise.all([apple, kiwi, berry]);
-    console.log(fruits);
-    console.timeEnd('aMakeSmoothie');
-
-    return fruits;
-  } catch (error) {
-    console.log('Ошибка');
+    const strawberryResult = await getFruit('strawberry');
+    const kiwiResult = await getFruit('kiwi');
+    const appleResult = await getFruit('apple');
+  } catch {
+    console.log('Error');
   }
+
+  return {strawberryResult, kiwiResult, appleResult}
 }
 
-aMakeSmoothie();
+console.log(makeSmoothie());
+
+
+
+
 
 // async function fn () {}
 
