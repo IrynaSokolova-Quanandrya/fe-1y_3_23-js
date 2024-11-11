@@ -6,19 +6,7 @@
 //    тіло
 // }
 
-for (let i = 0; i <= 500; i += 1) {
-    // console.log(i);
-}
 
-// let i = 0;
-// i = i + 5;
-// console.log(i);
-
-// console.log(1);
-// console.log(2);
-// console.log(3);
-// console.log(4);
-// console.log(5);
 
 /*
  * Напиши скрипт який підраховує загальну суму зп працівників.
@@ -52,17 +40,39 @@ for (let i = 1; i <= employees; i += 1){
  * ньому 2 парних числа - 2 та 4, їх сума 6.
  */
 
-const min = 0;
-const max =15;
+// 1.створити змінні max, min, total
+const min = 1;
+const max = 9;
 let total = 0;
 
-for(let i = min; i <= max; i += 1){
-    if(i % 2 !== 0){
-       continue;
+// 2.запустити цикл в діапазоні від min до max
+for (let i = min; i <= max; i += 1){
+    // 3.на кожній ітерації зробити перевірку на парність числа
+
+    if (i % 2 === 0) {
+        // 4.якщо число парне додати його в total
+        // console.log('парне число: ', i);
+        total += i
+    }
+}
+
+// console.log(total);
+
+
+for (let i = 0; i <= 10; i+=1) {
+  
+    console.log(i);
+    if (i === 5) {
+        console.log("зупиняємо виконання ітерації цикл: ", i);
+        continue;
+         console.log("зупиняємо цикл: ", i);
     }
     
-    total += i
 }
+
+
+
+
 
 // console.log('total: ', total);
 
@@ -103,6 +113,6 @@ for(let i = min; i <= max; i += 1){
  
 
 
-  for (let age = 0; age <= 18; age += 1) {   
-    console.log(age);   
-}
+//   for (let age = 0; age <= 18; age += 1) {   
+//     console.log(age);   
+// }
